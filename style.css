@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@600;700&display=swap');
+
+:root {
+  --bg:        #f5efe6;
+  --surface:   #ffffff;
+  --surface2:  #fdf8f2;
+  --orange:    #e8521a;
+  --orange-lt: #f47c3c;
+  --orange-bg: #fff0e8;
+  --text:      #1a1208;
+  --text-mid:  #6b5744;
+  --text-dim:  #b09880;
+  --border:    #e8d8c8;
+  --border-lt: #f0e4d4;
+  --shadow:    0 2px 12px rgba(100,50,20,.10);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+}
+
+/* ── ヘッダー ── */
+header {
+  background: var(--surface);
+  border-bottom: 3px solid var(--orange);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 56px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(100,50,20,.12);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 34px;
+  height: 34px;
+  background: var(--orange);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.logo-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+
+.logo-text span {
+  color: var(--orange);
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── フィルターボタン ── */
+.fbtns { display: flex; gap: 4px; }
+
+.fb {
+  padding: 5px 12px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text-mid);
+  transition: all .15s;
+  white-space: nowrap;
+}
+
+.fb:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: var(--orange-bg);
+}
+
+.fb.on {
+  background: var(--orange);
+  color: #fff;
+  border-color: var(--orange);
+}
+
+/* ── ステータスバー ── */
+.stat {
+  padding: 6px 20px;
+  font-size: 11px;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border-lt);
+  background: var(--surface2);
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.stat strong { color: var(--orange); }
+
+/* ── ジャンプナビ ── */
+.jumpnav {
+  padding: 8px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  border-bottom: 1px solid var(--border-lt);
+  background: var(--surface);
+}
+
+.jchip {
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 11px;
+  cursor: pointer;
+  color: var(--text-mid);
+  transition: all .12s;
+  white-space: nowrap;
+  background: var(--surface2);
+  font-weight: 500;
+}
+
+.jchip:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: var(--orange-bg);
+}
+
+/* ── 期行レイアウト ── */
+.nsc-row {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--border-lt);
+  background: var(--surface);
+  transition: background .1s;
+}
+
+.nsc-row:last-child { border-bottom: none; }
+.nsc-row:hover { background: var(--surface2); }
+
+/* ラベル列 */
+.label-col {
+  width: 120px;
+  min-width: 120px;
+  padding: 12px 10px 12px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 3px solid var(--orange);
+}
+
+.lmain {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+  letter-spacing: .02em;
+}
+
+.lyear {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--surface);
+  background: var(--orange);
+  border-radius: 4px;
+  padding: 1px 7px;
+  letter-spacing: .05em;
+}
+
+.lsub {
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 3px;
+  line-height: 1.5;
+}
+
+.label-col.unk {
+  border-right-color: var(--border);
+}
+
+.label-col.unk .lmain {
+  font-size: 12px;
+  color: var(--text-dim);
+  font-weight: 400;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* メンバー列 */
+.members-col {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 6px;
+  padding: 10px 16px 10px 12px;
+}
+
+/* コンビカード */
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  text-decoration: none;
+  color: inherit;
+  transition: all .15s;
+  min-width: 110px;
+  max-width: 200px;
+  box-shadow: 0 1px 4px rgba(100,50,20,.06);
+}
+
+.card:hover {
+  border-color: var(--orange);
+  background: var(--orange-bg);
+  box-shadow: 0 3px 10px rgba(232,82,26,.15);
+  transform: translateY(-2px);
+}
+
+.cname {
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text);
+}
+
+.cppl {
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 2px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── レスポンシブ ── */
+@media (max-width: 600px) {
+  .label-col {
+    width: 84px;
+    min-width: 84px;
+    padding: 10px 6px 10px 12px;
+  }
+  .lmain { font-size: 13px; }
+  .card { min-width: 96px; }
+  .logo-text { font-size: 16px; }
+}
