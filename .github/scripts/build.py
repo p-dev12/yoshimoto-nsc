@@ -61,7 +61,6 @@ def build():
 
 <header>
   <div class="logo">
-    <div class="logo-icon">🎭</div>
     <div class="logo-text">よしもと<span>メンバー</span></div>
   </div>
   <div class="header-right">
