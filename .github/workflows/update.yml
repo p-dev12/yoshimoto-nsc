@@ -1,30 +1,38 @@
 name: メンバー情報自動更新
 
 on:
+  # 毎日午前3時（JST）に自動実行 = UTC 18:00
   schedule:
     - cron: '0 18 * * *'
+  # 手動実行ボタン
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
+
       - name: Python セットアップ
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: 更新スクリプトを実行
         run: python .github/scripts/update.py
+
       - name: index.htmlを再生成
         run: python .github/scripts/build.py
+
       - name: 変更をコミット＆プッシュ
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/members.json data/overrides.json index.html
-          git diff --staged --quiet || git commit -m "🤖 メンバー情報を自動更新 $(date '+%Y/%m/%d %H:%M')"
+          git diff --staged --quiet || git commit -m "🤖 メンバー情報を自動更新 $(date '+%Y/%m/%d')"
           git push

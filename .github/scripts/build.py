@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 members.json + overrides.json → index.html を生成
-GitHub Actionsで自動実行されます
 """
 
 import json
@@ -14,6 +13,8 @@ MEMBERS_FILE   = DATA_DIR / "members.json"
 OVERRIDES_FILE = DATA_DIR / "overrides.json"
 OUTPUT_FILE    = ROOT_DIR / "index.html"
 
+OSAKA_DIFF = 17
+
 def load_json(path, default):
     if path.exists():
         with open(path, encoding="utf-8") as f:
@@ -21,32 +22,28 @@ def load_json(path, default):
     return default
 
 def members_to_js(members, overrides):
-    """メンバーリストをJavaScript配列に変換"""
     lines = []
     for m in members:
-        name   = m.get("name", "")
-        tier   = m.get("tier", "翔")
-        mid    = m.get("id", "")
-        people = m.get("people", "")
-        # NSC期: overrides > nsc_manual > nsc の優先順
-        nsc = (overrides.get(name) or m.get("nsc_manual") or m.get("nsc") or "")
-        # JavaScriptで安全に使えるようエスケープ
+        name    = m.get("name", "")
+        theater = m.get("theater", "東京")
+        tier    = m.get("tier", "翔")
+        mid     = m.get("id", "")
+        people  = m.get("people", "")
+        nsc     = (overrides.get(name) or m.get("nsc_manual") or m.get("nsc") or "")
         def esc(s):
             return s.replace('\\', '\\\\').replace('"', '\\"')
-        lines.append(f'["{esc(name)}","{esc(tier)}","{esc(mid)}","{esc(people)}","{esc(nsc)}"]')
+        lines.append(f'["{esc(name)}","{esc(theater)}","{esc(tier)}","{esc(mid)}","{esc(people)}","{esc(nsc)}"]')
     return ",\n".join(lines)
 
 def build():
-    members  = load_json(MEMBERS_FILE, [])
-    ov_data  = load_json(OVERRIDES_FILE, {"overrides": {}})
+    members   = load_json(MEMBERS_FILE, [])
+    ov_data   = load_json(OVERRIDES_FILE, {"overrides": {}})
     overrides = ov_data.get("overrides", {})
-
-    # 不明リスト（JSに埋め込む用）
-    unknown_list = [m["name"] for m in members if not (overrides.get(m["name"]) or m.get("nsc_manual") or m.get("nsc"))]
 
     jst = timezone(timedelta(hours=9))
     updated_at = datetime.now(jst).strftime("%Y/%m/%d %H:%M")
 
+    print(f"overrides読み込み: {overrides}")
     members_js = members_to_js(members, overrides)
 
     html = f'''<!DOCTYPE html>
@@ -64,10 +61,17 @@ def build():
     <div class="logo-text">よしもと<span>メンバー</span></div>
   </div>
   <div class="header-right">
-    <div class="fbtns">
-      <button class="fb on" onclick="setF(\'all\',this)">全員</button>
-      <button class="fb" onclick="setF(\'極\',this)">極メンバー</button>
-      <button class="fb" onclick="setF(\'翔\',this)">翔メンバー</button>
+    <div class="filter-group">
+      <div class="fbtns theater-btns">
+        <button class="fb on" data-theater="all" onclick="setTheater(\'all\',this)">全員</button>
+        <button class="fb tokyo" data-theater="東京" onclick="setTheater(\'東京\',this)">東京</button>
+        <button class="fb osaka" data-theater="大阪" onclick="setTheater(\'大阪\',this)">大阪</button>
+      </div>
+      <div class="fbtns tier-btns">
+        <button class="fb on" data-tier="all" onclick="setTier(\'all\',this)">全員</button>
+        <button class="fb" data-tier="極" onclick="setTier(\'極\',this)">極</button>
+        <button class="fb" data-tier="翔" onclick="setTier(\'翔\',this)">翔</button>
+      </div>
     </div>
   </div>
 </header>
@@ -79,8 +83,30 @@ def build():
 <script>
 const CURRENT_YEAR = new Date().getFullYear();
 const TOKYO_BASE   = 1995;
-const OSAKA_DIFF   = 17;
+const OSAKA_DIFF   = {OSAKA_DIFF};
 const UPDATED_AT   = "{updated_at}";
+
+// [name, theater, tier, id, people, nsc]
+const MEMBERS = [
+{members_js}
+];
+
+let curTheater = "all";
+let curTier    = "all";
+
+function setTheater(v, btn) {{
+  curTheater = v;
+  document.querySelectorAll(".theater-btns .fb").forEach(b => b.classList.remove("on"));
+  btn.classList.add("on");
+  render();
+}}
+
+function setTier(v, btn) {{
+  curTier = v;
+  document.querySelectorAll(".tier-btns .fb").forEach(b => b.classList.remove("on"));
+  btn.classList.add("on");
+  render();
+}}
 
 function calcYear(tokyoN) {{
   return CURRENT_YEAR - (tokyoN + TOKYO_BASE) + 1;
@@ -93,34 +119,28 @@ function parseNsc(s) {{
   return {{ region: m[1], num: parseInt(m[2]) }};
 }}
 
+function toTokyoN(region, num) {{
+  return region === "大阪" ? num - OSAKA_DIFF : num;
+}}
+
 function groupKey(nscStr) {{
   const p = parseNsc(nscStr);
   if (!p) return {{ sortN: 9999, label: "不明", sub: "", yearN: null }};
-  const tokyoN = p.region === "大阪" ? p.num - OSAKA_DIFF : p.num;
+  const tokyoN = toTokyoN(p.region, p.num);
   const osakaN = tokyoN + OSAKA_DIFF;
   return {{ sortN: tokyoN, label: `東京${{tokyoN}}期`, sub: `大阪${{osakaN}}期`, yearN: calcYear(tokyoN) }};
-}}
-
-const MEMBERS = [
-{members_js}
-];
-
-let curFilter = "all";
-
-function setF(f, btn) {{
-  curFilter = f;
-  document.querySelectorAll(".fb").forEach(b => b.classList.remove("on"));
-  btn.classList.add("on");
-  render();
 }}
 
 function ek(s) {{ return s.replace(/[^\\w\\u3000-\\u9fff]/g, "_"); }}
 
 function render() {{
-  const list = curFilter === "all" ? MEMBERS : MEMBERS.filter(m => m[1] === curFilter);
+  let list = MEMBERS;
+  if (curTheater !== "all") list = list.filter(m => m[1] === curTheater);
+  if (curTier !== "all")    list = list.filter(m => m[2] === curTier);
+
   const gmap = {{}};
   list.forEach(m => {{
-    const g = groupKey(m[4]);
+    const g = groupKey(m[5]);
     const k = g.label;
     if (!gmap[k]) gmap[k] = {{ sortN: g.sortN, sub: g.sub, yearN: g.yearN, arr: [] }};
     gmap[k].arr.push(m);
@@ -129,20 +149,19 @@ function render() {{
   const sorted = Object.entries(gmap).sort((a, b) => a[1].sortN - b[1].sortN);
   const known  = sorted.filter(([k]) => k !== "不明");
 
+  // ジャンプナビ
   document.getElementById("jumpnav").innerHTML = known.map(([k, v]) =>
     `<span class="jchip" onclick="document.getElementById('r${{ek(k)}}').scrollIntoView({{behavior:'smooth',block:'start'}})">
       ${{k}}<span style="color:var(--text-dim);margin-left:3px">${{v.arr.length}}</span>
     </span>`
   ).join("");
 
-  const total   = list.length;
-  const withNsc = list.filter(m => m[4]).length;
+  // 統計
   document.getElementById("stat").innerHTML =
-    `<span>表示: <strong>${{total}}組</strong></span>` +
-    `<span>NSC期確認済: <strong>${{withNsc}}組</strong></span>` +
-    `<span>不明: <strong>${{total - withNsc}}組</strong></span>` +
+    `<span>表示: <strong>${{list.length}}組</strong></span>` +
     `<span style="margin-left:auto;color:var(--text-dim);font-size:10px">更新: ${{UPDATED_AT}}</span>`;
 
+  // 行
   document.getElementById("main").innerHTML = sorted.map(([k, g]) => {{
     const unk = k === "不明";
     return `<div class="nsc-row" id="r${{ek(k)}}">
@@ -158,9 +177,11 @@ function render() {{
 }}
 
 function cardHtml(m) {{
-  const [name, tier, id, people] = m;
+  const [name, theater, tier, id, people] = m;
   const href = id ? `https://profile.yoshimoto.co.jp/talent/detail?id=${{id}}` : "#";
-  return `<a class="card" href="${{href}}" target="_blank" rel="noopener">
+  // 全員表示時は劇場で色分け、絞り込み時はニュートラル
+  const colorClass = curTheater === "all" ? (theater === "東京" ? " tokyo" : " osaka") : "";
+  return `<a class="card${{colorClass}}" href="${{href}}" target="_blank" rel="noopener">
     <div class="cname">${{name}}</div>
     ${{people ? `<div class="cppl">${{people}}</div>` : ""}}
   </a>`;
