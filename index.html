@@ -10,7 +10,6 @@
 
 <header>
   <div class="logo">
-    <div class="logo-icon"></div>
     <div class="logo-text">よしもと<span>メンバー</span></div>
   </div>
   <div class="header-right">
@@ -27,19 +26,13 @@
 <div id="main"></div>
 
 <script>
-// ============================================================
-// 年目計算
-// 東京N期 → 卒業年 = N + 1995
-// 年目 = 現在年 - 卒業年 + 1
-// 大阪NSCは東京換算（大阪N期 = 東京(N-17)期）
-// ============================================================
 const CURRENT_YEAR = new Date().getFullYear();
-const TOKYO_BASE   = 1995; // 東京1期 = 1996年卒業 → 1995+1
-const OSAKA_DIFF   = 17;   // 大阪N期 = 東京(N-17)期
+const TOKYO_BASE   = 1995;
+const OSAKA_DIFF   = 17;
+const UPDATED_AT   = "2026/04/24 22:48";
 
 function calcYear(tokyoN) {
-  const grad = tokyoN + TOKYO_BASE;
-  return CURRENT_YEAR - grad + 1;
+  return CURRENT_YEAR - (tokyoN + TOKYO_BASE) + 1;
 }
 
 function parseNsc(s) {
@@ -51,26 +44,16 @@ function parseNsc(s) {
 
 function groupKey(nscStr) {
   const p = parseNsc(nscStr);
-  if (!p) return { sortN: 9999, label: '不明', sub: '', yearN: null };
-  const tokyoN = p.region === '大阪' ? p.num - OSAKA_DIFF : p.num;
+  if (!p) return { sortN: 9999, label: "不明", sub: "", yearN: null };
+  const tokyoN = p.region === "大阪" ? p.num - OSAKA_DIFF : p.num;
   const osakaN = tokyoN + OSAKA_DIFF;
-  const yearN  = calcYear(tokyoN);
-  return {
-    sortN:  tokyoN,
-    label:  `東京${tokyoN}期`,
-    sub:    `大阪${osakaN}期`,
-    yearN:  yearN,
-  };
+  return { sortN: tokyoN, label: `東京${tokyoN}期`, sub: `大阪${osakaN}期`, yearN: calcYear(tokyoN) };
 }
 
-// ============================================================
-// メンバーデータ
-// [名前, 区分, id, メンバー名, NSC期]
-// ============================================================
 const MEMBERS = [
-["おしみんまる","極","416","",""],
+["おしみんまる","極","416","","東京3期"],
 ["ツーナッカン","極","491","中本幸一・中山逸紀","大阪20期"],
-["大谷健太","極","6884","",""],
+["大谷健太","極","6884","","東京9期"],
 ["イチキップリン","極","6586","","東京11期"],
 ["シマッシュレコード","極","6571","嶋田修平・しまい","東京11期"],
 ["小森園ひろし","極","5146","","大阪29期"],
@@ -87,7 +70,7 @@ const MEMBERS = [
 ["やさしいズ","極","3543","佐伯元輝・タイ","東京16期"],
 ["ゆにばーす","極","3532","はら・川瀬名人","東京16期"],
 ["ランパンプス","極","3525","寺内ゆうき・小林良行","東京16期"],
-["スクラップス","極","3758","ヨシオちゃん・安藤陸・サン北川",""],
+["スクラップス","極","3758","ヨシオちゃん・安藤陸・サン北川","東京18期"],
 ["銀河ゆめゆめ","極","3554","坂田光・のぶきよ","東京16期"],
 ["キンボシ","極","4409","西田淳裕・有宗先生","東京16期"],
 ["カラタチ","極","4387","大山和也・前田壮太","東京16期"],
@@ -128,8 +111,8 @@ const MEMBERS = [
 ["サンタモニカ","極","8883","ポール・マイム","東京23期"],
 ["インテイク","極","8976","鈴木龍平・まえかず","東京23期"],
 ["ヨネダ2000","極","8816","誠・愛","東京23期"],
-["ケビンス","極","7295","仁木恭平・山口コンボイ",""],
-["デンゼル","極","","とべまーし・遠藤逸人",""],
+["ケビンス","極","7295","仁木恭平・山口コンボイ","東京18期"],
+["デンゼル","極","","とべまーし・遠藤逸人","東京13期"],
 ["さや香","極","6046","新山・石井","大阪34期"],
 ["蛙亭","極","5175","中野周平・イワクラ","大阪34期"],
 ["シモリュウ","極","10812","シモタ・前田龍二","大阪34期"],
@@ -190,91 +173,72 @@ const MEMBERS = [
 ["ただならぬ刀","翔","14213","まんたろう・ビエラ・J・ダニエル","東京30期"],
 ["照山おうちごはん","翔","11908","金山・ほかぞの・O竹良い","東京30期"],
 ["ドンココ","翔","11902","ひろ・りゅう","東京30期"],
-["ナユタ","翔","11804","おのはら・ホリコシ",""],
+["ナユタ","翔","11804","おのはら・ホリコシ","東京30期"],
 ["ミナミナミ","翔","14205","小夏とーわ・中山ヒロト・川村がくもん","東京30期"],
 ["しんや","翔","8753","","大阪41期"],
 ["はるかぜとともに","翔","7763","サジ・やすお","大阪41期"],
 ["ぺ","翔","9474","カク・カタヤマヨシヨ","大阪44期"],
-["大王","翔","11798","山内仁平・渡辺ポット",""],
+["大王","翔","11798","山内仁平・渡辺ポット","東京25期"]
 ];
 
-// ============================================================
-// NSC期手動上書き（不明なコンビはここで設定）
-// 例: "スクラップス": "東京16期"
-// ============================================================
-const OVERRIDES = {
-  // "コンビ名": "東京XX期" または "大阪XX期"
-};
-
-// ============================================================
-// 状態
-// ============================================================
-let curFilter = 'all';
+let curFilter = "all";
 
 function setF(f, btn) {
   curFilter = f;
-  document.querySelectorAll('.fb').forEach(b => b.classList.remove('on'));
-  btn.classList.add('on');
+  document.querySelectorAll(".fb").forEach(b => b.classList.remove("on"));
+  btn.classList.add("on");
   render();
 }
 
-function ek(s) { return s.replace(/[^\w\u3000-\u9fff]/g, '_'); }
+function ek(s) { return s.replace(/[^\w\u3000-\u9fff]/g, "_"); }
 
-// ============================================================
-// 描画
-// ============================================================
 function render() {
-  const list = curFilter === 'all' ? MEMBERS : MEMBERS.filter(m => m[1] === curFilter);
-
-  // グループ化
+  const list = curFilter === "all" ? MEMBERS : MEMBERS.filter(m => m[1] === curFilter);
   const gmap = {};
   list.forEach(m => {
-    const nsc = OVERRIDES[m[0]] || m[4];
-    const g = groupKey(nsc);
+    const g = groupKey(m[4]);
     const k = g.label;
     if (!gmap[k]) gmap[k] = { sortN: g.sortN, sub: g.sub, yearN: g.yearN, arr: [] };
     gmap[k].arr.push(m);
   });
 
   const sorted = Object.entries(gmap).sort((a, b) => a[1].sortN - b[1].sortN);
-  const known  = sorted.filter(([k]) => k !== '不明');
+  const known  = sorted.filter(([k]) => k !== "不明");
 
-  // ジャンプナビ
-  document.getElementById('jumpnav').innerHTML = known.map(([k, v]) =>
+  document.getElementById("jumpnav").innerHTML = known.map(([k, v]) =>
     `<span class="jchip" onclick="document.getElementById('r${ek(k)}').scrollIntoView({behavior:'smooth',block:'start'})">
       ${k}<span style="color:var(--text-dim);margin-left:3px">${v.arr.length}</span>
     </span>`
-  ).join('');
+  ).join("");
 
-  // 統計
   const total   = list.length;
-  const withNsc = list.filter(m => (OVERRIDES[m[0]] || m[4])).length;
-  document.getElementById('stat').innerHTML =
+  const withNsc = list.filter(m => m[4]).length;
+  document.getElementById("stat").innerHTML =
     `<span>表示: <strong>${total}組</strong></span>` +
     `<span>NSC期確認済: <strong>${withNsc}組</strong></span>` +
-    `<span>不明: <strong>${total - withNsc}組</strong></span>`;
+    `<span>不明: <strong>${total - withNsc}組</strong></span>` +
+    `<span style="margin-left:auto;color:var(--text-dim);font-size:10px">更新: ${UPDATED_AT}</span>`;
 
-  // 行
-  document.getElementById('main').innerHTML = sorted.map(([k, g]) => {
-    const unk = k === '不明';
+  document.getElementById("main").innerHTML = sorted.map(([k, g]) => {
+    const unk = k === "不明";
     return `<div class="nsc-row" id="r${ek(k)}">
-      <div class="label-col${unk ? ' unk' : ''}">
-        <div class="lmain">${unk ? '不明' : k}</div>
-        ${!unk && g.yearN !== null ? `<div class="lyear">${g.yearN}年目</div>` : ''}
-        ${!unk && g.sub ? `<div class="lsub">${g.sub}</div>` : ''}
+      <div class="label-col${unk ? " unk" : ""}">
+        <div class="lmain">${unk ? "不明" : k}</div>
+        ${!unk && g.yearN !== null ? `<div class="lyear">${g.yearN}年目</div>` : ""}
+        ${!unk && g.sub ? `<div class="lsub">${g.sub}</div>` : ""}
         <div class="lsub" style="margin-top:4px">${g.arr.length}組</div>
       </div>
-      <div class="members-col">${g.arr.map(cardHtml).join('')}</div>
+      <div class="members-col">${g.arr.map(cardHtml).join("")}</div>
     </div>`;
-  }).join('');
+  }).join("");
 }
 
 function cardHtml(m) {
   const [name, tier, id, people] = m;
-  const href = id ? `https://profile.yoshimoto.co.jp/talent/detail?id=${id}` : '#';
+  const href = id ? `https://profile.yoshimoto.co.jp/talent/detail?id=${id}` : "#";
   return `<a class="card" href="${href}" target="_blank" rel="noopener">
     <div class="cname">${name}</div>
-    ${people ? `<div class="cppl">${people}</div>` : ''}
+    ${people ? `<div class="cppl">${people}</div>` : ""}
   </a>`;
 }
 
