@@ -8,10 +8,11 @@ import json
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
-DATA_DIR     = Path(__file__).parent.parent / "data"
-MEMBERS_FILE = DATA_DIR / "members.json"
+ROOT_DIR       = Path(__file__).resolve().parents[2]
+DATA_DIR       = ROOT_DIR / "data"
+MEMBERS_FILE   = DATA_DIR / "members.json"
 OVERRIDES_FILE = DATA_DIR / "overrides.json"
-OUTPUT_FILE  = Path(__file__).parent.parent / "index.html"
+OUTPUT_FILE    = ROOT_DIR / "index.html"
 
 def load_json(path, default):
     if path.exists():
