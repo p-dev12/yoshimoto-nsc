@@ -20,8 +20,7 @@ jobs:
 
       - name: Python セットアップ
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+        with: python-version: '3.11'
 
       - name: 更新スクリプトを実行
         run: python .github/scripts/update.py
