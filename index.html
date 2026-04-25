@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>よしもとメンバー｜NSC期別早見表</title>
+<title>劇場メンバー｜NSC期別早見表</title>
+<meta name="description" content="神保町・渋谷よしもと漫才劇場（東京）とよしもと漫才劇場（大阪）の所属メンバーをNSC期別に一覧表示する非公式早見表サイトです。東京・大阪の絞り込みや極・翔メンバーのフィルタリングができます。">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <!-- Google tag (gtag.js) -->
@@ -27,6 +28,11 @@
       <button class="fb tokyo" onclick="setTheater('東京',this)">東京</button>
       <button class="fb osaka" onclick="setTheater('大阪',this)">大阪</button>
     </div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input class="search-input" type="text" placeholder="コンビ名で検索..." id="searchInput" autocomplete="off">
+      <div class="search-suggest" id="searchSuggest"></div>
+    </div>
   </div>
 </header>
 
@@ -45,6 +51,9 @@
     <p class="footer-contact">
       不具合・ご意見は <a href="https://twitter.com/ululu420" target="_blank" rel="noopener">@ululu420</a> のDMにてお知らせください
     </p>
+    <p class="footer-disclaimer">
+      本サイトは個人制作による非公式サイトです。掲載情報は吉本興業公式プロフィール等の公開情報を参考にしています。内容の正確性を保証するものではありません。問題がある場合は速やかに修正・削除いたします。
+    </p>
     <p class="footer-contact">
       <a href="privacy.html">プライバシーポリシー</a>
     </p>
@@ -55,7 +64,7 @@
 const CURRENT_YEAR = new Date().getFullYear();
 const TOKYO_BASE   = 1995;
 const OSAKA_DIFF   = 17;
-const UPDATED_AT   = "2026/04/25 19:58";
+const UPDATED_AT   = "2026/04/25 20:15";
 
 // [name, theater, tier, id, people, nsc]
 const MEMBERS = [
@@ -378,12 +387,9 @@ function render() {
 
   document.getElementById("main").innerHTML = sorted.map(([k, g]) => {
     const unk = k === "不明";
-    let label = "";
-    if (unk) {
-      label = `<div class="lmain">不明</div>`;
-    } else {
-      label = `<div class="lmain">${g.tokyoLabel}</div><div class="lsub-nsc">${g.osakaLabel}</div>`;
-    }
+    let label = unk
+      ? `<div class="lmain">不明</div>`
+      : `<div class="lmain">${g.tokyoLabel}</div><div class="lsub-nsc">${g.osakaLabel}</div>`;
     return `<div class="nsc-row" id="r${ek(k)}">
       <div class="label-col${unk ? " unk" : ""}">
         ${label}
@@ -399,11 +405,62 @@ function cardHtml(m) {
   const [name, theater, tier, id, people] = m;
   const href = id ? `https://profile.yoshimoto.co.jp/talent/detail?id=${id}` : "#";
   const colorClass = curTheater === "all" ? (theater === "東京" ? " tokyo" : " osaka") : "";
-  return `<a class="card${colorClass}" href="${href}" target="_blank" rel="noopener">
+  return `<a class="card${colorClass}" href="${href}" target="_blank" rel="noopener" data-name="${name}">
     <div class="cname">${name}</div>
     ${people ? `<div class="cppl">${people}</div>` : ""}
   </a>`;
 }
+
+// ── 検索機能 ──
+const searchInput   = document.getElementById("searchInput");
+const searchSuggest = document.getElementById("searchSuggest");
+
+searchInput.addEventListener("input", () => {
+  const q = searchInput.value.trim();
+  if (!q) { searchSuggest.classList.remove("open"); return; }
+
+  const hits = MEMBERS.filter(m =>
+    m[0].includes(q) || m[4].includes(q)
+  ).slice(0, 8);
+
+  if (!hits.length) { searchSuggest.classList.remove("open"); return; }
+
+  searchSuggest.innerHTML = hits.map(m => {
+    const g = groupKey(m[5]);
+    const nameHl = m[0].replace(q, `<span class="si-highlight">${q}</span>`);
+    return `<div class="suggest-item" data-rowid="r${ek(g.tokyoLabel)}" data-name="${m[0]}">
+      <div class="si-name">${nameHl}</div>
+      <div class="si-nsc">${g.tokyoLabel} / ${g.osakaLabel}${g.yearN ? ` / ${g.yearN}年目` : ""}</div>
+    </div>`;
+  }).join("");
+
+  searchSuggest.classList.add("open");
+});
+
+searchSuggest.addEventListener("click", e => {
+  const item = e.target.closest(".suggest-item");
+  if (!item) return;
+  const rowId = item.dataset.rowid;
+  searchInput.value = item.dataset.name;
+  searchSuggest.classList.remove("open");
+  const row = document.getElementById(rowId);
+  if (row) {
+    row.scrollIntoView({ behavior: "smooth", block: "center" });
+    // ハイライト
+    row.querySelectorAll(".card").forEach(c => {
+      if (c.dataset.name === item.dataset.name) {
+        c.classList.add("highlight");
+        setTimeout(() => c.classList.remove("highlight"), 2000);
+      }
+    });
+  }
+});
+
+document.addEventListener("click", e => {
+  if (!e.target.closest(".search-wrap")) {
+    searchSuggest.classList.remove("open");
+  }
+});
 
 render();
 </script>
