@@ -4,9 +4,9 @@
   --bg:         #f5efe6;
   --surface:    #ffffff;
   --surface2:   #fdf8f2;
-  --accent:     #e8521a;   /* オレンジ：全員アクセント */
-  --tokyo:      #1a6ab5;   /* 青：東京 */
-  --osaka:      #e91e63;   /* ピンク：大阪 */
+  --accent:     #e8521a;
+  --tokyo:      #1a6ab5;
+  --osaka:      #e91e63;
   --tokyo-bg:   #eef4fd;
   --osaka-bg:   #fde8f0;
   --tokyo-lt:   #a8c8f0;
@@ -28,7 +28,6 @@ body {
   min-height: 100vh;
 }
 
-/* ── ヘッダー ── */
 header {
   background: var(--surface);
   border-bottom: 3px solid var(--accent);
@@ -42,6 +41,8 @@ header {
   z-index: 100;
   box-shadow: 0 2px 10px rgba(100,50,20,.12);
 }
+header.mode-tokyo { border-bottom-color: var(--tokyo); }
+header.mode-osaka { border-bottom-color: var(--osaka); }
 
 .logo-text {
   font-family: 'Oswald', sans-serif;
@@ -52,25 +53,14 @@ header {
   white-space: nowrap;
 }
 .logo-text span { color: var(--accent); }
+header.mode-tokyo .logo-text span { color: var(--tokyo); }
+header.mode-osaka .logo-text span { color: var(--osaka); }
 
-.header-right {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-}
-
-/* フィルター2段 */
-.filter-group {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: flex-end;
-}
-
+.header-right { margin-left: auto; display: flex; align-items: center; gap: 8px; }
 .fbtns { display: flex; gap: 4px; }
 
 .fb {
-  padding: 4px 12px;
+  padding: 5px 12px;
   border: 1.5px solid var(--border);
   background: var(--surface);
   border-radius: 20px;
@@ -82,20 +72,20 @@ header {
   transition: all .15s;
   white-space: nowrap;
 }
-
-/* 全員ボタン */
 .fb:hover { border-color: var(--accent); color: var(--accent); }
 .fb.on    { background: var(--accent); color: #fff; border-color: var(--accent); }
 
-/* 東京ボタン */
 .theater-btns .fb.tokyo:hover { border-color: var(--tokyo); color: var(--tokyo); }
 .theater-btns .fb.tokyo.on    { background: var(--tokyo); color: #fff; border-color: var(--tokyo); }
-
-/* 大阪ボタン */
 .theater-btns .fb.osaka:hover { border-color: var(--osaka); color: var(--osaka); }
 .theater-btns .fb.osaka.on    { background: var(--osaka); color: #fff; border-color: var(--osaka); }
 
-/* ── ステータスバー ── */
+/* tier-btns：モードに応じて色変更 */
+header.mode-tokyo .tier-btns .fb:hover { border-color: var(--tokyo); color: var(--tokyo); }
+header.mode-tokyo .tier-btns .fb.on    { background: var(--tokyo); color: #fff; border-color: var(--tokyo); }
+header.mode-osaka .tier-btns .fb:hover { border-color: var(--osaka); color: var(--osaka); }
+header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; border-color: var(--osaka); }
+
 .stat {
   padding: 5px 20px;
   font-size: 11px;
@@ -109,7 +99,7 @@ header {
 }
 .stat strong { color: var(--accent); }
 
-/* ── ジャンプナビ ── */
+/* ジャンプナビ + tier-btns */
 .jumpnav {
   padding: 7px 20px;
   display: flex;
@@ -117,7 +107,9 @@ header {
   gap: 5px;
   border-bottom: 1px solid var(--border-lt);
   background: var(--surface);
+  align-items: center;
 }
+.jumpnav .tier-btns { margin-left: auto; }
 
 .jchip {
   padding: 3px 10px;
@@ -133,7 +125,7 @@ header {
 }
 .jchip:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ── 行レイアウト ── */
+/* 行 */
 .nsc-row {
   display: flex;
   align-items: stretch;
@@ -152,15 +144,33 @@ header {
   justify-content: center;
   border-right: 3px solid var(--accent);
 }
+.mode-tokyo .label-col { border-right-color: var(--tokyo); }
+.mode-osaka .label-col { border-right-color: var(--osaka); }
 
+/* 全員表示：両方同じサイズ */
 .lmain {
   font-family: 'Oswald', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text);
-  line-height: 1.2;
-  letter-spacing: .02em;
+  line-height: 1.3;
 }
+.lsub-nsc {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+  margin-top: 1px;
+}
+
+/* 東京絞り込み：東京大きい */
+.mode-tokyo .lmain  { font-size: 16px; }
+.mode-tokyo .lsub-nsc { font-size: 11px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
+
+/* 大阪絞り込み：大阪大きい */
+.mode-osaka .lmain  { font-size: 11px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
+.mode-osaka .lsub-nsc { font-size: 16px; color: var(--text); font-weight: 700; font-family: 'Oswald', sans-serif; }
 
 .lyear {
   display: inline-block;
@@ -171,23 +181,14 @@ header {
   background: var(--accent);
   border-radius: 4px;
   padding: 1px 7px;
-  letter-spacing: .05em;
 }
+.mode-tokyo .lyear { background: var(--tokyo); }
+.mode-osaka .lyear { background: var(--osaka); }
 
-.lsub {
-  font-size: 10px;
-  color: var(--text-dim);
-  margin-top: 3px;
-  line-height: 1.5;
-}
+.lsub { font-size: 10px; color: var(--text-dim); margin-top: 3px; line-height: 1.5; }
 
 .label-col.unk { border-right-color: var(--border); }
-.label-col.unk .lmain {
-  font-size: 12px;
-  color: var(--text-dim);
-  font-weight: 400;
-  font-family: 'Noto Sans JP', sans-serif;
-}
+.label-col.unk .lmain { font-size: 12px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
 
 .members-col {
   flex: 1;
@@ -198,7 +199,6 @@ header {
   padding: 10px 16px 10px 12px;
 }
 
-/* ── カード ── */
 .card {
   display: inline-flex;
   flex-direction: column;
@@ -214,52 +214,24 @@ header {
   max-width: 210px;
   box-shadow: 0 1px 4px rgba(100,50,20,.06);
 }
+.card:hover { box-shadow: 0 3px 10px rgba(0,0,0,.12); transform: translateY(-2px); }
 
-.card:hover {
-  box-shadow: 0 3px 10px rgba(0,0,0,.12);
-  transform: translateY(-2px);
-}
-
-/* 東京カード */
-.card.tokyo {
-  border-color: var(--tokyo-lt);
-  background: var(--tokyo-bg);
-}
+.card.tokyo { border-color: var(--tokyo-lt); background: var(--tokyo-bg); }
 .card.tokyo:hover { border-color: var(--tokyo); box-shadow: 0 3px 10px rgba(26,106,181,.2); }
 .card.tokyo .cname { color: var(--tokyo); }
 
-/* 大阪カード */
-.card.osaka {
-  border-color: var(--osaka-lt);
-  background: var(--osaka-bg);
-}
+.card.osaka { border-color: var(--osaka-lt); background: var(--osaka-bg); }
 .card.osaka:hover { border-color: var(--osaka); box-shadow: 0 3px 10px rgba(233,30,99,.2); }
 .card.osaka .cname { color: var(--osaka); }
 
-.cname {
-  font-size: 12px;
-  font-weight: 700;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+.cname { font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cppl  { font-size: 10px; color: var(--text-dim); margin-top: 2px; line-height: 1.5; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-.cppl {
-  font-size: 10px;
-  color: var(--text-dim);
-  margin-top: 2px;
-  line-height: 1.5;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-/* ── レスポンシブ ── */
 @media (max-width: 600px) {
   header { height: auto; padding: 8px 12px; flex-wrap: wrap; gap: 8px; }
   .label-col { width: 84px; min-width: 84px; padding: 10px 6px 10px 12px; }
-  .lmain { font-size: 13px; }
+  .lmain { font-size: 12px; }
+  .lsub-nsc { font-size: 12px; }
   .card { min-width: 96px; }
   .logo-text { font-size: 16px; }
-  .filter-group { flex-direction: row; flex-wrap: wrap; gap: 4px; }
 }
