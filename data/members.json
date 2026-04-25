@@ -44,7 +44,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "6571",
-    "people": "嶋田修平・しまい",
+    "people": "嶋田　修平・しまい",
     "nsc": "東京11期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6571/b85fa1491aa950f918216914c38060242d61ba3e.jpg"
@@ -64,7 +64,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "5069",
-    "people": "辻井亮平・ナポリ",
+    "people": "ナポリ・辻井亮平",
     "nsc": "大阪30期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5069/48ab46bf389d938c0e3c39c3a163e5189deef03b.jpg"
@@ -88,6 +88,16 @@
     "nsc": "東京13期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6970/2687b2fc85ff3457e049f0bca83e151a22c43e61.jpg"
+  },
+  {
+    "name": "デンゼル",
+    "theater": "東京",
+    "tier": "極",
+    "id": "11922",
+    "people": "遠藤はやと・とべまーし",
+    "nsc": "東京13期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11922/e32a601f5f0f263ed1641157178c905765f7f0b8.jpg"
   },
   {
     "name": "光永",
@@ -124,7 +134,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "9063",
-    "people": "松山健太・あづまひでのり",
+    "people": "あづまひでのり・松山健太",
     "nsc": "大阪32期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9063/1cc5c156f45eb5e97d52352d9f8197daf442b2f4.jpg"
@@ -134,7 +144,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "6529",
-    "people": "中川ひちゃゆき・山本プロ野球",
+    "people": "山本プロ野球・中川ひちゃゆき",
     "nsc": "大阪32期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6529/0400f134b64585ca3df1e8a4f0397c4c4dce8811.jpg"
@@ -154,7 +164,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "8859",
-    "people": "ななえ・松間サタデー",
+    "people": "松間サタデー・ななえ",
     "nsc": "大阪32期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8859/fa078eddcc50191817ba6a291f95c6a16c27c61a.jpg"
@@ -224,7 +234,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "8856",
-    "people": "千葉ゴウ・西田どらやき",
+    "people": "西田どらやき・千葉ゴウ",
     "nsc": "東京16期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8856/8bb9f1cb825c83810404901d2b6c38d826d2922d.jpg"
@@ -234,7 +244,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "4387",
-    "people": "大山和也・前田壮太",
+    "people": "前田壮太・大山和也",
     "nsc": "東京16期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/4387/b3d8f514274221a0bdefb79b13395b91258471b9.jpg"
@@ -244,7 +254,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "9053",
-    "people": "石橋俊春・伊藤貴之",
+    "people": "伊藤貴之・石橋俊春",
     "nsc": "東京16期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9053/d16af103d406c57d073715d0f4249e836e7d0fc3.jpg"
@@ -294,7 +304,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "9898",
-    "people": "古賀充泰・舟生",
+    "people": "舟生・古賀充泰",
     "nsc": "東京16期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9898/f09302cf505d0d2bc8fa98bce21e8d29300192cb.jpg"
@@ -344,7 +354,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "6886",
-    "people": "杉昇・渡辺翔太",
+    "people": "杉　昇・渡辺 翔太",
     "nsc": "東京17期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6886/dba423b6d031219e9822d9c40d70802e45a33e57.jpg"
@@ -384,7 +394,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "8849",
-    "people": "大寺順平・米女翔",
+    "people": "米女翔・大寺惇平",
     "nsc": "東京17期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8849/2d2790857a31f52fd8b67022abf16d2b36b28f93.jpg"
@@ -394,7 +404,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "7260",
-    "people": "盛田シンプルイズベスト・宮﨑",
+    "people": "盛田シンプルイズベスト・宮崎",
     "nsc": "東京17期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7260/8d4f9c73f4e537571296d5c7406efc18d4d8cafe.jpg"
@@ -404,7 +414,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "8862",
-    "people": "ヤナセピッグ・水谷優太",
+    "people": "水谷 優太・ヤナセ",
     "nsc": "東京18期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8862/01566205e38de99b7022909c7269fe6aa9c56b0f.jpg"
@@ -544,7 +554,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "6356",
-    "people": "永見大吾・浜田順平",
+    "people": "浜田順平・永見大吾",
     "nsc": "大阪36期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6356/fcbc1cc690098d6a7cad14f36e948b6d99da2905.jpg"
@@ -614,7 +624,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "11573",
-    "people": "杉本裕雅・兼松瑞希",
+    "people": "兼松瑞希・杉本裕雅",
     "nsc": "東京20期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11573/9fa718947930e778e433fe6d556f901340adf11b.jpg"
@@ -920,16 +930,6 @@
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7034/50a8b25549e110dec2c8586f5393953883d3d7d4.jpg"
   },
   {
-    "name": "狛犬",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "9755",
-    "people": "坂口トラック・櫛野",
-    "nsc": "東京24期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9755/bd7dd364485ae461b64eaef0b9397d85b8219020.jpg"
-  },
-  {
     "name": "小虎",
     "theater": "東京",
     "tier": "翔",
@@ -938,6 +938,16 @@
     "nsc": "東京24期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9012/1d455de12ec103d724f52fe1b93aa022d170849f.jpg"
+  },
+  {
+    "name": "狛犬",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "9755",
+    "people": "坂口トラック・櫛野",
+    "nsc": "東京24期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9755/bd7dd364485ae461b64eaef0b9397d85b8219020.jpg"
   },
   {
     "name": "しんや",
@@ -974,7 +984,7 @@
     "theater": "東京",
     "tier": "翔",
     "id": "9015",
-    "people": "清家太浪・ソウヤタニグチ",
+    "people": "ソウヤタニグチ・清家タロウ",
     "nsc": "東京25期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9015/d82f558f180e9575bf7e823e9b4d15ba774d6b76.jpg"
@@ -1004,7 +1014,7 @@
     "theater": "東京",
     "tier": "翔",
     "id": "12622",
-    "people": "上地わら・ランジェ",
+    "people": "ランジェ・上地わら",
     "nsc": "東京26期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/12622/9b191ec42832fd5b1bfefc381672c8a8fe1032ae.jpg"
@@ -1084,7 +1094,7 @@
     "theater": "東京",
     "tier": "翔",
     "id": "13999",
-    "people": "ビッグ小原健太・鈴木ロン毛",
+    "people": "鈴木ロン毛・ビッグ小原健太",
     "nsc": "東京27期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13999/15ac31a2039a20d0f582880f5dbb322c1710cfae.jpg"
@@ -1114,7 +1124,7 @@
     "theater": "東京",
     "tier": "翔",
     "id": "13764",
-    "people": "キタムラタクロー・ろまん",
+    "people": "ろまん・キタムラタクロー",
     "nsc": "東京28期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13764/83aca5602f92f4edbe257d445731d66413fb4c5c.jpg"
@@ -1154,7 +1164,7 @@
     "theater": "東京",
     "tier": "翔",
     "id": "13996",
-    "people": "えっす〜！・まんなかあきと",
+    "people": "まんなかあきと・えっす〜！",
     "nsc": "東京29期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13996/8ccd19481a93f74744561d6c4621dad31d0820d6.jpg"
@@ -1254,7 +1264,7 @@
     "theater": "東京",
     "tier": "翔",
     "id": "11804",
-    "people": "おのはら・ホリコシ",
+    "people": "ホリコシ・おのはら",
     "nsc": "",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11804/51951a141194637b86ca902fda99a9d5f4116817.jpg"
@@ -1272,9 +1282,9 @@
   {
     "name": "ガチャガチャ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5807",
-    "people": "",
+    "people": "かんちゃん・ジョージ",
     "nsc": "大阪25期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5807/6cc6197c4537550a266433f76c5c18513f861691.jpg"
@@ -1282,9 +1292,9 @@
   {
     "name": "祇園",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "2846",
-    "people": "",
+    "people": "木﨑太郎・櫻井健一朗",
     "nsc": "大阪28期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/2846/fe140859788edeaba54a1ff24393269d48507aff.jpg"
@@ -1292,9 +1302,9 @@
   {
     "name": "デルマパンゲ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5078",
-    "people": "",
+    "people": "迫田篤・広木英介",
     "nsc": "",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5078/0f32afaf0569170700946fb9b9feaf3e7aefa3dd.jpg"
@@ -1302,9 +1312,9 @@
   {
     "name": "吉田たち",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "2873",
-    "people": "",
+    "people": "こうへい・ゆうへい",
     "nsc": "大阪29期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/2873/f3defa877ce5c7bd23ee3893c7b25d4e30b0ae55.jpg"
@@ -1312,9 +1322,9 @@
   {
     "name": "ラビットラ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6329",
-    "people": "",
+    "people": "渡邊瞬・松本直也",
     "nsc": "大阪29期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6329/ede5cc50b03a80cbbc598c66503c8114ed14a7c7.jpg"
@@ -1322,9 +1332,9 @@
   {
     "name": "十手",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5786",
-    "people": "",
+    "people": "十田卓・エナジー西手",
     "nsc": "大阪30期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5786/4b326eb76baf74fe4f226b8e14b492ffac72334b.jpg"
@@ -1332,9 +1342,9 @@
   {
     "name": "ダブルアート",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5154",
-    "people": "",
+    "people": "タグ・真べぇ",
     "nsc": "大阪30期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5154/95fe565273c9364aa8d7f2b991421ee80e533dd8.jpg"
@@ -1342,9 +1352,9 @@
   {
     "name": "マイスイートメモリーズ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6478",
-    "people": "",
+    "people": "トランスフォーム福田・花谷豊",
     "nsc": "",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6478/b08de0d05d219c93ed8deabe44b4368fcc3aabdf.jpg"
@@ -1352,9 +1362,9 @@
   {
     "name": "マグリット",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "7878",
-    "people": "",
+    "people": "サバイバルダンス大地・おふらんす田中",
     "nsc": "大阪31期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7878/32cafbb5599c82298564fd5bc55fd7499c7136fd.jpg"
@@ -1362,9 +1372,9 @@
   {
     "name": "アイラブ地球",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "13994",
-    "people": "",
+    "people": "コウノ・オブ・ザ・イヤー・きむきむ",
     "nsc": "大阪32期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13994/34f9d5833198e19250a87a7dbd7992d67ae32966.jpg"
@@ -1372,9 +1382,9 @@
   {
     "name": "牛ぺぺ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "8094",
-    "people": "",
+    "people": "おねえちゃん・ゆたか",
     "nsc": "大阪32期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8094/f131b5e3c5bca43491425e751271b811be5f6bd5.jpg"
@@ -1382,9 +1392,9 @@
   {
     "name": "黒帯",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5939",
-    "people": "",
+    "people": "大西進・てらうち",
     "nsc": "",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5939/b1388af55ac0032ef337f772a23c51cf498f75b1.jpg"
@@ -1392,9 +1402,9 @@
   {
     "name": "超速バギー",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "8260",
-    "people": "",
+    "people": "ハマムラ・アキラ・明里　洋輔",
     "nsc": "大阪32期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8260/435faf3e03cdbfdde94661ed5da6ae0966501302.jpg"
@@ -1402,9 +1412,9 @@
   {
     "name": "武者武者",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5135",
-    "people": "",
+    "people": "杉岡勇治・濱坂恭平",
     "nsc": "大阪32期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5135/5110982121a7220ce43a1524c6d2eda2116ce5ad.jpg"
@@ -1412,9 +1422,9 @@
   {
     "name": "モンスーン",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5166",
-    "people": "",
+    "people": "小山英機・T@TSU",
     "nsc": "大阪32期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5166/1ed28f670a89d43447142484332041a81dd960a1.jpg"
@@ -1422,9 +1432,9 @@
   {
     "name": "ザ・布団",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "9696",
-    "people": "",
+    "people": "江原・TNB",
     "nsc": "大阪33期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9696/02da62694dec47ea5cdce29b2b9c5b858f5ed009.jpg"
@@ -1432,9 +1442,9 @@
   {
     "name": "しゅんすけ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "10162",
-    "people": "",
+    "people": "さかもと・ほりお",
     "nsc": "大阪33期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10162/831e6ea3091f06f87beb8ec1a24f73b639545be6.jpg"
@@ -1442,9 +1452,9 @@
   {
     "name": "ネイビーズアフロ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5928",
-    "people": "",
+    "people": "みながわ・はじり",
     "nsc": "大阪33期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5928/dc0706b43ca2feaa56a5e96a731dc78700a34c55.jpg"
@@ -1452,9 +1462,9 @@
   {
     "name": "鬼としみちゃむ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "8086",
-    "people": "",
+    "people": "しみちゃむ・鬼沢さん",
     "nsc": "大阪34期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8086/3e413e0f6ed4fb1f2ea60fb9834566be97a70582.jpg"
@@ -1462,9 +1472,9 @@
   {
     "name": "華山",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5979",
-    "people": "",
+    "people": "やすい・にこらす",
     "nsc": "大阪34期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5979/9257365bdb201bb43d07ebfe41c68061d2529770.jpg"
@@ -1472,9 +1482,9 @@
   {
     "name": "侍スライス",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6649",
-    "people": "",
+    "people": "加藤・門田",
     "nsc": "東京17期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6649/f50b96ca5912ed34f44a6cdc7255034b6c760345.jpg"
@@ -1482,9 +1492,9 @@
   {
     "name": "スナフキンズ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "7113",
-    "people": "",
+    "people": "朝地亮介・松永ボディ",
     "nsc": "大阪34期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7113/b462d15e180c42b5218c8c4011c20e59bf47f6d1.jpg"
@@ -1492,9 +1502,9 @@
   {
     "name": "センリーズ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6532",
-    "people": "",
+    "people": "きたしろ・テコンドー近藤",
     "nsc": "大阪34期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6532/17684e24cb0e713beedd5e70b242e93ee28d686f.jpg"
@@ -1502,9 +1512,9 @@
   {
     "name": "ビーンズ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "7772",
-    "people": "",
+    "people": "おいちょ・ひらがだぬき",
     "nsc": "大阪34期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7772/3e841c2dc372001ae380ca54fd849bd3fca7f070.jpg"
@@ -1512,9 +1522,9 @@
   {
     "name": "隣人",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6692",
-    "people": "",
+    "people": "中村 遊直・橋本市民球場",
     "nsc": "大阪34期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6692/012aefc265ef84a244d1d2d7f0671d950d57ab63.jpg"
@@ -1522,9 +1532,9 @@
   {
     "name": "茜250cc",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "8029",
-    "people": "",
+    "people": "小泉・善家カズマサ",
     "nsc": "大阪35期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8029/591a31807c5ab34059ed18f78d47e05608d342b7.jpg"
@@ -1532,9 +1542,9 @@
   {
     "name": "イノシカチョウ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "9175",
-    "people": "",
+    "people": "純吉・関本・ムギ",
     "nsc": "大阪35期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9175/8a478b3b24d2e1fe4a56629539cf36468ea847f7.jpg"
@@ -1542,9 +1552,9 @@
   {
     "name": "ナナ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "7696",
-    "people": "",
+    "people": "山根リチャード・大二",
     "nsc": "大阪30期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7696/5de0ff8b8ec250155b48652d27b1ec4598378f15.jpg"
@@ -1552,9 +1562,9 @@
   {
     "name": "もも",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6824",
-    "people": "",
+    "people": "せめる。・まもる。",
     "nsc": "大阪35期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6824/4127510747127626d6eca2deece8040fa0c35927.jpg"
@@ -1562,9 +1572,9 @@
   {
     "name": "イチオク",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6680",
-    "people": "",
+    "people": "タケヤ・ないすケン",
     "nsc": "大阪36期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6680/838b003692a6e494448b8c98da15e7be2e6f934e.jpg"
@@ -1572,9 +1582,9 @@
   {
     "name": "オーサカクレオパトラ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "8394",
-    "people": "",
+    "people": "りえちゃん・かつのぶさん",
     "nsc": "大阪36期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8394/e94be798880e75f3065ac76b86b3bc103cea963c.jpg"
@@ -1582,9 +1592,9 @@
   {
     "name": "カンフーカンフー",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "9184",
-    "people": "",
+    "people": "キムリョンス・チェン",
     "nsc": "大阪36期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9184/3cb05a3f9cec60c8e40c204430785900b4373d03.jpg"
@@ -1592,9 +1602,9 @@
   {
     "name": "豪快キャプテン",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "7235",
-    "people": "",
+    "people": "べーやん・山下ギャンブルゴリラ",
     "nsc": "大阪36期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7235/7e7f32b8f18c864b8b1152c08de2d59a37766618.jpg"
@@ -1602,9 +1612,9 @@
   {
     "name": "ドーナツ・ピーナツ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6437",
-    "people": "",
+    "people": "ピーナツ・ドーナツ",
     "nsc": "東京19期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6437/b7a3c305377f34521b88610f3b0e0b29b30ca09a.jpg"
@@ -1612,9 +1622,9 @@
   {
     "name": "盆と正月",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "8383",
-    "people": "",
+    "people": "ほしあられ・橋爪アキラ",
     "nsc": "大阪36期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8383/0ed6078785e93a394dfbcf057384bb179c30fb08.jpg"
@@ -1622,9 +1632,9 @@
   {
     "name": "ポチ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "13444",
-    "people": "",
+    "people": "こうたろう・茜チーフ",
     "nsc": "大阪36期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13444/90cc93737dd5b60339a86eda2600437632d316db.jpg"
@@ -1632,9 +1642,9 @@
   {
     "name": "丸亀じゃんご",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6147",
-    "people": "",
+    "people": "北村敏輝・安場泰介",
     "nsc": "大阪36期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6147/183a53af22c462fc129cb04226089993f0540b10.jpg"
@@ -1642,9 +1652,9 @@
   {
     "name": "翠星チークダンス",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6095",
-    "people": "",
+    "people": "ちろる・木佐",
     "nsc": "",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6095/e64fc07a3b7ad5b86cc569897bff2b1862236035.jpg"
@@ -1652,9 +1662,9 @@
   {
     "name": "千日前ゴールデンポップス",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6841",
-    "people": "",
+    "people": "ガーヤマちゃん・村岡わっしょい！",
     "nsc": "大阪37期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6841/4553c5007ddfb9549d11cbb880255698e8d59488.jpg"
@@ -1662,9 +1672,9 @@
   {
     "name": "チェリー大作戦",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6654",
-    "people": "",
+    "people": "ねんど・宗安聖",
     "nsc": "大阪37期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6654/3ee37709f917184c117818ba3153ea5107a539a9.jpg"
@@ -1672,9 +1682,9 @@
   {
     "name": "愛凛冴",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "10844",
-    "people": "",
+    "people": "横山・玲二",
     "nsc": "大阪38期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10844/62112bc4363bcb014f80a482f449239e4cadb0e6.jpg"
@@ -1682,9 +1692,9 @@
   {
     "name": "ゴエモン",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "7283",
-    "people": "",
+    "people": "濱田浩平・だいじゅ",
     "nsc": "大阪38期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7283/06e9f75ebc6d74eda121bb1900e319bdd843afac.jpg"
@@ -1692,9 +1702,9 @@
   {
     "name": "天才ピアニスト",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6698",
-    "people": "",
+    "people": "竹内知咲・ますみ",
     "nsc": "大阪38期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6698/692a671b6b8dd9af75569c5d09477633668c1555.jpg"
@@ -1702,9 +1712,9 @@
   {
     "name": "フースーヤ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6285",
-    "people": "",
+    "people": "田中ショータイム・谷口理",
     "nsc": "大阪38期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6285/21a7653256f5cf36ce5486d3e28ecd160a32a18e.jpg"
@@ -1712,9 +1722,9 @@
   {
     "name": "いつもたいしゃ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6749",
-    "people": "",
+    "people": "シンジ君・黒田",
     "nsc": "大阪39期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6749/0eaf4bef5682bbf0c6983d62da83a2d79ab2f053.jpg"
@@ -1722,9 +1732,9 @@
   {
     "name": "うただ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6850",
-    "people": "",
+    "people": "一石達也・宮本",
     "nsc": "大阪39期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6850/dd7880350c1c0001e066f8001b5a5c842c20662f.jpg"
@@ -1732,9 +1742,9 @@
   {
     "name": "ぎょうぶ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "7488",
-    "people": "",
+    "people": "為国・澤畑　健二",
     "nsc": "大阪39期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7488/fa1e82f778b0e0345c9361e621b0f379cbf43541.jpg"
@@ -1742,9 +1752,9 @@
   {
     "name": "タチマチ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6737",
-    "people": "",
+    "people": "安達周平・胡内佑介",
     "nsc": "大阪39期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6737/c242d48965a64605d53a5be0df11233fb3449ff6.jpg"
@@ -1752,9 +1762,9 @@
   {
     "name": "タレンチ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "7327",
-    "people": "",
+    "people": "芝田大輝・コバタユウ",
     "nsc": "大阪39期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7327/10cd067f77eae77b79c0f7a39bd0bb4a87e4d98d.jpg"
@@ -1762,9 +1772,9 @@
   {
     "name": "とくいち",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "9282",
-    "people": "",
+    "people": "大野・西垣・あさやまんちゃんランド",
     "nsc": "大阪39期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9282/e385648f2eeca823588d1b73a4ad16526c9c90c1.jpg"
@@ -1772,9 +1782,9 @@
   {
     "name": "爛々",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6391",
-    "people": "",
+    "people": "萌々・大国麗",
     "nsc": "大阪39期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6391/ec71c9e5a0ee102bb5063fda3db1d7943d27216e.jpg"
@@ -1782,9 +1792,9 @@
   {
     "name": "ルージュ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "11700",
-    "people": "",
+    "people": "ソースかける・田中昭太",
     "nsc": "大阪39期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11700/ea16eaf04b0193b39dc8ee2722b480c2ac5e952e.jpg"
@@ -1792,9 +1802,9 @@
   {
     "name": "幸のとり",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "8113",
-    "people": "",
+    "people": "永迫拓海・福嶋一夫",
     "nsc": "大阪40期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8113/6dd5ba33742c7d089faac179185c794ff3ae8f24.jpg"
@@ -1802,9 +1812,9 @@
   {
     "name": "国道アリス",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "9046",
-    "people": "",
+    "people": "かとうスムージー・コヤマダ",
     "nsc": "大阪40期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9046/a25f7d02be96302e7d8bb0e4a6b902b09f4f51c6.jpg"
@@ -1812,7 +1822,7 @@
   {
     "name": "シゲカズです",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5754",
     "people": "",
     "nsc": "大阪31期",
@@ -1822,7 +1832,7 @@
   {
     "name": "苺ちゃん",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "8065",
     "people": "",
     "nsc": "大阪32期",
@@ -1832,7 +1842,7 @@
   {
     "name": "濱田祐太郎",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6293",
     "people": "",
     "nsc": "大阪35期",
@@ -1842,7 +1852,7 @@
   {
     "name": "やまぐちたけし",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6618",
     "people": "",
     "nsc": "大阪35期",
@@ -1852,7 +1862,7 @@
   {
     "name": "ゆりやんレトリィバァ",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "5100",
     "people": "",
     "nsc": "大阪35期",
@@ -1862,7 +1872,7 @@
   {
     "name": "真輝志",
     "theater": "大阪",
-    "tier": "翔",
+    "tier": "極",
     "id": "6280",
     "people": "",
     "nsc": "大阪36期",
@@ -1874,7 +1884,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9993",
-    "people": "",
+    "people": "かりむ・田中",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9993/5218e8720188caf0aebf5996aaceaa379b27cf09.jpg"
@@ -1884,7 +1894,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "7289",
-    "people": "",
+    "people": "高橋・浦田スターク・たっぺい",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7289/3ab47eb0ab2835c4def8c11d64f4b392c97c66f3.jpg"
@@ -1894,7 +1904,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9996",
-    "people": "",
+    "people": "ゆう・ソウタヤマモト",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9996/e8d187e0f4ddd0d1db63ce9b6f10456323eb33de.jpg"
@@ -1904,7 +1914,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9182",
-    "people": "",
+    "people": "新久保　勝貴・別府ジカキン",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9182/a6e20516c17f376a17933a4624b767c9f550f322.jpg"
@@ -1914,7 +1924,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "8143",
-    "people": "",
+    "people": "稲継　諒・さくらい",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8143/ab9bcd837ab328a7e6c9e5c3e9c3d81fc72757b9.jpg"
@@ -1924,7 +1934,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10159",
-    "people": "",
+    "people": "弓月一日・きらく",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10159/6afae2d348159c1d31b1d8c19ae8ba7498bbae81.jpg"
@@ -1934,7 +1944,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "6792",
-    "people": "",
+    "people": "ひでき・まついあきら",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6792/27d574b2a233d011011ac5f6f7405557071aad2f.jpg"
@@ -1944,7 +1954,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "6746",
-    "people": "",
+    "people": "ときヲ・りぴーと",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6746/748cdab9f9317553fde8b91db09ed5be8f91e496.jpg"
@@ -1954,7 +1964,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "7686",
-    "people": "",
+    "people": "竹岡航太・青木智紀",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7686/0ebcd1ab172e6109b53635c1876434e579d36fa5.jpg"
@@ -1964,7 +1974,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "13439",
-    "people": "",
+    "people": "あると・YOSH!NO",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13439/751adedfa02d3d9c77fd2aad5c6632ff2b679f49.jpg"
@@ -1974,7 +1984,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "7004",
-    "people": "",
+    "people": "奥慎太郎・こうちゃん",
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7004/b1d9c15eda2b408b0a1584f606689979712cb209.jpg"
@@ -1984,7 +1994,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "7426",
-    "people": "",
+    "people": "府上ふが・こんちゃん",
     "nsc": "大阪42期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7426/93b74c663133cbffe10349752d43311827809dac.jpg"
@@ -1994,7 +2004,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "8101",
-    "people": "",
+    "people": "大門正尚・茶屋",
     "nsc": "大阪42期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8101/413910c01e473753c0abde9ab6cfc4c43a8ebf54.jpg"
@@ -2004,7 +2014,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "7503",
-    "people": "",
+    "people": "家村　涼太・高松巧",
     "nsc": "大阪42期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7503/36c85a1b5197e046bef0d9fcc1bc6d00e9361649.jpg"
@@ -2014,7 +2024,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9872",
-    "people": "",
+    "people": "井坂ひ孫・週末",
     "nsc": "大阪42期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9872/b77d10acca45d4ff9c3971e2acd151f81f242165.jpg"
@@ -2024,7 +2034,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9272",
-    "people": "",
+    "people": "福本ユウショウ・ゆうじろー",
     "nsc": "大阪42期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9272/bd066fe0e8b6bbf18bc57f38254591d73b209b07.jpg"
@@ -2034,7 +2044,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "8700",
-    "people": "",
+    "people": "田村境祐・テクニック。",
     "nsc": "大阪42期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8700/25db195680af989a37eef6d51156ce8cf3bf0888.jpg"
@@ -2044,7 +2054,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "7967",
-    "people": "",
+    "people": "なつみ・れんぺい",
     "nsc": "大阪42期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7967/e8da2144f562e835645cf4d334dfb3afd779a7b9.jpg"
@@ -2054,7 +2064,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9929",
-    "people": "",
+    "people": "宮田　祐輔・児島クソデカおにく",
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9929/3524717d75132736561cf5fcb7887187f0918c37.jpg"
@@ -2064,7 +2074,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9912",
-    "people": "",
+    "people": "北川・ゆのき",
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9912/7a28293623a16ab1b67f7abcb523a2e6b86a276f.jpg"
@@ -2074,7 +2084,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "8601",
-    "people": "",
+    "people": "タキノ　ルイ・田上",
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8601/b1a57ea899e91b6f68d75ecd7d4d4ccca246dd03.jpg"
@@ -2084,7 +2094,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "11715",
-    "people": "",
+    "people": "福沢葉・藤本もふ",
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11715/5d60a53578660392d4c6776cf4a5cb1e046da4db.jpg"
@@ -2094,7 +2104,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "11565",
-    "people": "",
+    "people": "奥野賢一・馬田バジリスク",
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11565/3c62f146a43ff61592e43f0b557ed3fdb33c5618.jpg"
@@ -2104,7 +2114,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "8500",
-    "people": "",
+    "people": "真平・ホソ",
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8500/226791d6315ed4a9cf51e462b9f3b19add7726ea.jpg"
@@ -2114,7 +2124,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "8515",
-    "people": "",
+    "people": "夢・りん",
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8515/b337e7af94671f88615abc30f544a7a3d3a47d41.jpg"
@@ -2124,7 +2134,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9877",
-    "people": "",
+    "people": "岡本峻・久保バトル泰志",
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9877/fcddad5274fb98f0cf06fae5f87892356a69639c.jpg"
@@ -2134,7 +2144,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10879",
-    "people": "",
+    "people": "ボヒゲス・ヲ富",
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10879/a6b5999bb02ccd6128f5042b1c9f4fb7421711b1.jpg"
@@ -2144,7 +2154,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9645",
-    "people": "",
+    "people": "田中雄大・坂本拓馬",
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9645/34ecc3b3ebcf4462638d0e0b843027389d037e0e.jpg"
@@ -2154,7 +2164,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9664",
-    "people": "",
+    "people": "統哉・巻野",
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9664/87271d919562f56653fd682e96d9c38afadfa399.jpg"
@@ -2164,7 +2174,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "11696",
-    "people": "",
+    "people": "べっち・吉田ザオリク",
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11696/46fc88aa41aefc4b6b3d6162ed6b8d5961abe69d.jpg"
@@ -2174,7 +2184,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9914",
-    "people": "",
+    "people": "阪本啓伍・芝",
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9914/961887ab31f2d1c894c872de2e69f7da9b949dca.jpg"
@@ -2184,7 +2194,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "9652",
-    "people": "",
+    "people": "松ヤニ・狂犬",
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9652/7a96593479038eb264e318f330d35eab0b860a8f.jpg"
@@ -2194,7 +2204,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10265",
-    "people": "",
+    "people": "やまち・朱海",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10265/6ff7c16d0a08e1cd5a8634453e3806dcc6010aea.jpg"
@@ -2204,7 +2214,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10269",
-    "people": "",
+    "people": "慎太郎・シノ",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10269/f51dd8ee8e873966b29ddb2717a86b9a1c772e8f.jpg"
@@ -2214,7 +2224,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10517",
-    "people": "",
+    "people": "村子 雄星・シキ",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10517/51ffa8c14280b67ad397b5adb54f95f142cf2b31.jpg"
@@ -2224,7 +2234,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10632",
-    "people": "",
+    "people": "細見 晃・かおる",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10632/860d17b936ea38e1d094489d412e432d8783db04.jpg"
@@ -2234,7 +2244,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10589",
-    "people": "",
+    "people": "川﨑・ケージュ・カンサイ",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10589/54b89bb17f2f444b4bb8479fe769193b20b2f68d.jpg"
@@ -2244,7 +2254,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10643",
-    "people": "",
+    "people": "にーはら・鳴瀬",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10643/87980f5f875afb37e1ce43f2913a30020f984abe.jpg"
@@ -2254,7 +2264,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "11719",
-    "people": "",
+    "people": "やまぐち・てすけ",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11719/cc9355d029411acf78e55a932de068a0c722272f.jpg"
@@ -2264,7 +2274,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10380",
-    "people": "",
+    "people": "山縣とかげ・佐藤じゃろ丸",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10380/8353c4c3b7ae1c34511f1403137be869fa8633a5.jpg"
@@ -2274,7 +2284,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10383",
-    "people": "",
+    "people": "飛田翼・大津 尚斗",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10383/c3ae90be1ab951581ec647c88792bbbf88071a39.jpg"
@@ -2284,7 +2294,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "10386",
-    "people": "",
+    "people": "花妃・とんず",
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10386/7b319b717641f275b6aece4777cf591679dd46e2.jpg"
@@ -2294,7 +2304,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "11241",
-    "people": "",
+    "people": "かみむら・高田　純",
     "nsc": "大阪46期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11241/e354773d196fb131a420ee1646ab7726c409e049.jpg"
@@ -2304,7 +2314,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "12133",
-    "people": "",
+    "people": "小倉・金井",
     "nsc": "大阪47期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/12133/454c6a72ff11c1f3b864e9d986db4e398ca8ff64.jpg"
@@ -2314,7 +2324,7 @@
     "theater": "大阪",
     "tier": "翔",
     "id": "12224",
-    "people": "",
+    "people": "浅原康太・井ノ口たまご",
     "nsc": "大阪47期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/12224/35776b592810299b2888111edb202ccaa7d45524.jpg"
