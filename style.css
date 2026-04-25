@@ -252,12 +252,12 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
   box-shadow: 0 1px 4px rgba(100,50,20,.06);
 }
 .card:hover { box-shadow: 0 3px 10px rgba(0,0,0,.12); transform: translateY(-2px); }
-.card.tokyo { border-color: var(--tokyo-lt); background: var(--tokyo-bg); }
+.card.tokyo { border-color: var(--tokyo-lt);  }
 .card.tokyo:hover { border-color: var(--tokyo); box-shadow: 0 3px 10px rgba(26,106,181,.2); }
-.card.tokyo .cname { color: var(--tokyo); }
-.card.osaka { border-color: var(--osaka-lt); background: var(--osaka-bg); }
+
+.card.osaka { border-color: var(--osaka-lt); }
 .card.osaka:hover { border-color: var(--osaka); box-shadow: 0 3px 10px rgba(233,30,99,.2); }
-.card.osaka .cname { color: var(--osaka); }
+
 .card.highlight { box-shadow: 0 0 0 3px var(--accent); }
 
 .cname { font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
