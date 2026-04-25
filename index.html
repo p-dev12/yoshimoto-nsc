@@ -23,15 +23,15 @@
     <div class="logo-text">よしもと<span>メンバー</span></div>
   </div>
   <div class="header-right">
-    <div class="fbtns theater-btns">
-      <button class="fb on" onclick="setTheater('all',this)">全体</button>
-      <button class="fb tokyo" onclick="setTheater('東京',this)">東京</button>
-      <button class="fb osaka" onclick="setTheater('大阪',this)">大阪</button>
-    </div>
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
       <input class="search-input" type="text" placeholder="コンビ名で検索..." id="searchInput" autocomplete="off">
       <div class="search-suggest" id="searchSuggest"></div>
+    </div>
+    <div class="fbtns theater-btns">
+      <button class="fb on" onclick="setTheater('all',this)">全体</button>
+      <button class="fb tokyo" onclick="setTheater('東京',this)">東京</button>
+      <button class="fb osaka" onclick="setTheater('大阪',this)">大阪</button>
     </div>
   </div>
 </header>
@@ -64,7 +64,7 @@
 const CURRENT_YEAR = new Date().getFullYear();
 const TOKYO_BASE   = 1995;
 const OSAKA_DIFF   = 17;
-const UPDATED_AT   = "2026/04/25 20:27";
+const UPDATED_AT   = "2026/04/25 20:32";
 
 // [name, theater, tier, id, people, nsc]
 const MEMBERS = [
