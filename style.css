@@ -298,6 +298,6 @@ footer {
   .lsub-nsc { font-size: 12px; }
   .card { min-width: 96px; }
   .logo-text { font-size: 16px; }
-  .search-input { width: 120px; }
+  .search-input { width: 150px; }
   .search-input:focus { width: 150px; }
 }
