@@ -64,7 +64,7 @@
 const CURRENT_YEAR = new Date().getFullYear();
 const TOKYO_BASE   = 1995;
 const OSAKA_DIFF   = 17;
-const UPDATED_AT   = "2026/04/25 23:24";
+const UPDATED_AT   = "2026/04/25 23:37";
 
 // [name, theater, tier, id, people, nsc]
 const MEMBERS = [
@@ -402,7 +402,7 @@ function render() {
 
 function cardHtml(m) {
   const [name, theater, tier, id, people, nsc, added_at] = m;
-  const isNew = added_at && (Date.now() - new Date(added_at).getTime()) < 7 * 24 * 60 * 60 * 1000;
+  const isNew = false;
   const href = id ? `https://profile.yoshimoto.co.jp/talent/detail?id=${id}` : "#";
   const colorClass = curTheater === "all" ? (theater === "東京" ? " tokyo" : " osaka") : "";
   return `<a class="card${colorClass}" href="${href}" target="_blank" rel="noopener" data-name="${name}">
