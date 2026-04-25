@@ -261,6 +261,16 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
 .card.highlight { box-shadow: 0 0 0 3px var(--accent); }
 
 .cname { font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.new-badge {
+  font-size: 9px;
+  font-weight: 700;
+  background: #e8521a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 1px 5px;
+  letter-spacing: .03em;
+  flex-shrink: 0;
+}
 .cppl  { font-size: 10px; color: var(--text-dim); margin-top: 2px; line-height: 1.5; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 /* ── フッター ── */
