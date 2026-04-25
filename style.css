@@ -28,6 +28,7 @@ body {
   min-height: 100vh;
 }
 
+/* ── ヘッダー ── */
 header {
   background: var(--surface);
   border-bottom: 3px solid var(--accent);
@@ -80,12 +81,66 @@ header.mode-osaka .logo-text span { color: var(--osaka); }
 .theater-btns .fb.osaka:hover { border-color: var(--osaka); color: var(--osaka); }
 .theater-btns .fb.osaka.on    { background: var(--osaka); color: #fff; border-color: var(--osaka); }
 
-/* tier-btns：モードに応じて色変更 */
 header.mode-tokyo .tier-btns .fb:hover { border-color: var(--tokyo); color: var(--tokyo); }
 header.mode-tokyo .tier-btns .fb.on    { background: var(--tokyo); color: #fff; border-color: var(--tokyo); }
 header.mode-osaka .tier-btns .fb:hover { border-color: var(--osaka); color: var(--osaka); }
 header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; border-color: var(--osaka); }
 
+/* ── 検索ボックス ── */
+.search-wrap {
+  position: relative;
+}
+.search-input {
+  padding: 5px 12px 5px 30px;
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--surface);
+  width: 160px;
+  transition: all .15s;
+  outline: none;
+}
+.search-input:focus { border-color: var(--accent); width: 200px; }
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-dim);
+  font-size: 12px;
+  pointer-events: none;
+}
+.search-suggest {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12);
+  z-index: 200;
+  max-height: 240px;
+  overflow-y: auto;
+  display: none;
+}
+.search-suggest.open { display: block; }
+.suggest-item {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border-lt);
+  transition: background .1s;
+}
+.suggest-item:last-child { border-bottom: none; }
+.suggest-item:hover { background: var(--bg); }
+.suggest-item .si-name { font-weight: 700; color: var(--text); }
+.suggest-item .si-nsc  { font-size: 10px; color: var(--text-dim); margin-top: 1px; }
+.suggest-item .si-highlight { color: var(--accent); }
+
+/* ── ステータスバー ── */
 .stat {
   padding: 5px 20px;
   font-size: 11px;
@@ -99,7 +154,7 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
 }
 .stat strong { color: var(--accent); }
 
-/* ジャンプナビ + tier-btns */
+/* ── ジャンプナビ ── */
 .jumpnav {
   padding: 7px 20px;
   display: flex;
@@ -111,21 +166,7 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
 }
 .jumpnav .tier-btns { margin-left: auto; }
 
-.jchip {
-  padding: 3px 10px;
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  font-size: 11px;
-  cursor: pointer;
-  color: var(--text-mid);
-  transition: all .12s;
-  white-space: nowrap;
-  background: var(--surface2);
-  font-weight: 500;
-}
-.jchip:hover { border-color: var(--accent); color: var(--accent); }
-
-/* 行 */
+/* ── 行レイアウト ── */
 .nsc-row {
   display: flex;
   align-items: stretch;
@@ -147,7 +188,6 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
 .mode-tokyo .label-col { border-right-color: var(--tokyo); }
 .mode-osaka .label-col { border-right-color: var(--osaka); }
 
-/* 全員表示：両方同じサイズ */
 .lmain {
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
@@ -164,12 +204,9 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
   margin-top: 1px;
 }
 
-/* 東京絞り込み：東京大きい */
-.mode-tokyo .lmain  { font-size: 16px; }
+.mode-tokyo .lmain   { font-size: 16px; }
 .mode-tokyo .lsub-nsc { font-size: 11px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
-
-/* 大阪絞り込み：大阪大きい */
-.mode-osaka .lmain  { font-size: 11px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
+.mode-osaka .lmain   { font-size: 11px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
 .mode-osaka .lsub-nsc { font-size: 16px; color: var(--text); font-weight: 700; font-family: 'Oswald', sans-serif; }
 
 .lyear {
@@ -186,7 +223,6 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
 .mode-osaka .lyear { background: var(--osaka); }
 
 .lsub { font-size: 10px; color: var(--text-dim); margin-top: 3px; line-height: 1.5; }
-
 .label-col.unk { border-right-color: var(--border); }
 .label-col.unk .lmain { font-size: 12px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
 
@@ -199,6 +235,7 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
   padding: 10px 16px 10px 12px;
 }
 
+/* ── カード ── */
 .card {
   display: inline-flex;
   flex-direction: column;
@@ -215,16 +252,45 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
   box-shadow: 0 1px 4px rgba(100,50,20,.06);
 }
 .card:hover { box-shadow: 0 3px 10px rgba(0,0,0,.12); transform: translateY(-2px); }
-
-.card.tokyo { border-color: var(--tokyo-lt);}
+.card.tokyo { border-color: var(--tokyo-lt); background: var(--tokyo-bg); }
 .card.tokyo:hover { border-color: var(--tokyo); box-shadow: 0 3px 10px rgba(26,106,181,.2); }
-
-.card.osaka { border-color: var(--osaka-lt);}
+.card.tokyo .cname { color: var(--tokyo); }
+.card.osaka { border-color: var(--osaka-lt); background: var(--osaka-bg); }
 .card.osaka:hover { border-color: var(--osaka); box-shadow: 0 3px 10px rgba(233,30,99,.2); }
+.card.osaka .cname { color: var(--osaka); }
+.card.highlight { box-shadow: 0 0 0 3px var(--accent); }
 
 .cname { font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .cppl  { font-size: 10px; color: var(--text-dim); margin-top: 2px; line-height: 1.5; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
+/* ── フッター ── */
+footer {
+  margin-top: 40px;
+  padding: 24px 20px;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  text-align: center;
+}
+.footer-inner { display: flex; flex-direction: column; gap: 8px; }
+.footer-source, .footer-contact, .footer-disclaimer {
+  font-size: 11px;
+  color: var(--text-dim);
+  line-height: 1.8;
+}
+.footer-disclaimer {
+  font-size: 10px;
+  color: var(--text-dim);
+  max-width: 600px;
+  margin: 4px auto 0;
+  line-height: 1.7;
+}
+.footer-source a, .footer-contact a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.footer-source a:hover, .footer-contact a:hover { text-decoration: underline; }
+
+/* ── レスポンシブ ── */
 @media (max-width: 600px) {
   header { height: auto; padding: 8px 12px; flex-wrap: wrap; gap: 8px; }
   .label-col { width: 84px; min-width: 84px; padding: 10px 6px 10px 12px; }
@@ -232,4 +298,6 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
   .lsub-nsc { font-size: 12px; }
   .card { min-width: 96px; }
   .logo-text { font-size: 16px; }
+  .search-input { width: 120px; }
+  .search-input:focus { width: 150px; }
 }
