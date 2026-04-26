@@ -170,7 +170,7 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
 .nsc-row {
   display: flex;
   align-items: stretch;
-  border-bottom: 1px solid var(--border-lt);
+  border-bottom: 1px solid var(--border);
   background: var(--surface);
 }
 .nsc-row:last-child { border-bottom: none; }
