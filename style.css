@@ -2,6 +2,7 @@
 
 :root {
   --bg:         #f5efe6;
+  --bg2:         #fffdfa;
   --surface:    #ffffff;
   --surface2:   #fdf8f2;
   --accent:     #e8521a;
@@ -175,6 +176,7 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
 }
 .nsc-row:last-child { border-bottom: none; }
 .nsc-row:hover { background: var(--surface2); }
+.nsc-row:nth-child(odd){background: var(--bg2);}
 
 .label-col {
   width: 120px;
@@ -204,10 +206,10 @@ header.mode-osaka .tier-btns .fb.on    { background: var(--osaka); color: #fff; 
   margin-top: 1px;
 }
 
-.mode-tokyo .lmain   { font-size: 16px; }
+.mode-tokyo .lmain   { font-size: 15px; }
 .mode-tokyo .lsub-nsc { font-size: 11px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
 .mode-osaka .lmain   { font-size: 11px; color: var(--text-dim); font-weight: 400; font-family: 'Noto Sans JP', sans-serif; }
-.mode-osaka .lsub-nsc { font-size: 16px; color: var(--text); font-weight: 700; font-family: 'Oswald', sans-serif; }
+.mode-osaka .lsub-nsc { font-size: 15px; color: var(--text); font-weight: 700; font-family: 'Oswald', sans-serif; }
 
 .lyear {
   display: inline-block;
