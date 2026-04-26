@@ -304,8 +304,6 @@ footer {
 @media (max-width: 600px) {
   header { height: auto; padding: 8px 12px; flex-wrap: wrap; gap: 8px; }
   .label-col { width: 84px; min-width: 84px; padding: 10px 6px 10px 12px; }
-  .lmain { font-size: 12px; }
-  .lsub-nsc { font-size: 12px; }
   .card { min-width: 96px; }
   .logo-text { font-size: 16px; }
   .search-input { width: 150px; }
