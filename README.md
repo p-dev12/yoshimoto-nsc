@@ -28,6 +28,6 @@ https://p-dev12.github.io/yoshimoto-nsc/
 
 本サイトは個人制作による非公式サイトです。吉本興業株式会社とは一切関係ありません。
 
-## お問い合わせ
+## お問い合わせ・ご意見
 
-[@ululu420](https://twitter.com/ululu420)
+[こちら]([https://twitter.com/ululu420](https://docs.google.com/forms/d/e/1FAIpQLSc5sjEHo7fM5zFrszM-ZK5CJGHZT7-ZLFwH7xC13rCTX9_qXg/viewform?usp=dialog))
