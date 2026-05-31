@@ -143,17 +143,6 @@
     "added_at": ""
   },
   {
-    "name": "クロフネ",
-    "theater": "東京",
-    "tier": "極",
-    "id": "9063",
-    "people": "あづまひでのり・松山健太",
-    "nsc": "大阪32期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9063/1cc5c156f45eb5e97d52352d9f8197daf442b2f4.jpg",
-    "added_at": ""
-  },
-  {
     "name": "シカゴ実業",
     "theater": "東京",
     "tier": "極",
@@ -1078,17 +1067,6 @@
     "added_at": ""
   },
   {
-    "name": "はるかぜとともに",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "7763",
-    "people": "サジ・やすお",
-    "nsc": "大阪41期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7763/5a7c679ca175821693acee2cd43950e3e0d864f4.jpg",
-    "added_at": ""
-  },
-  {
     "name": "今夜はブルース",
     "theater": "東京",
     "tier": "翔",
@@ -1119,17 +1097,6 @@
     "nsc": "東京25期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10013/ee2243098932b09546166ce28f4b161e815c4be7.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "イザナミン",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "12622",
-    "people": "ランジェ・上地わら",
-    "nsc": "東京26期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/12622/45fedcbc01ec59f04712430097da80fff986b967.jpg",
     "added_at": ""
   },
   {
@@ -1254,6 +1221,17 @@
     "added_at": ""
   },
   {
+    "name": "キイロイゾウサン",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "13521",
+    "people": "SIZUKU・クロギ",
+    "nsc": "東京28期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13521/d2c534fc60a3c843e73141c1b10dca79dca3141d.jpg",
+    "added_at": ""
+  },
+  {
     "name": "セカンドロット",
     "theater": "東京",
     "tier": "翔",
@@ -1287,6 +1265,17 @@
     "added_at": ""
   },
   {
+    "name": "ウィークリー習慣",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "14417",
+    "people": "まさ・村尾スグリ",
+    "nsc": "東京29期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14417/65714085103078355d081991f8b7e3416434204e.jpg",
+    "added_at": ""
+  },
+  {
     "name": "き展",
     "theater": "東京",
     "tier": "翔",
@@ -1295,17 +1284,6 @@
     "nsc": "東京29期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13996/4a83b8251fc66f7d29d8ec69dedaf9c33b2130bc.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "鉄巣鴨",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "14335",
-    "people": "萩原ニート・ピンマン",
-    "nsc": "東京29期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14335/97f0edab7035bd2a502c75d1a3df6d1be1acbd89.jpg",
     "added_at": ""
   },
   {
@@ -1342,14 +1320,25 @@
     "added_at": ""
   },
   {
-    "name": "美バンブー",
+    "name": "なでなでボーイ",
     "theater": "東京",
     "tier": "翔",
-    "id": "14343",
-    "people": "中原はたけ・もりお",
+    "id": "14465",
+    "people": "安斉太啓・みずの☆彡",
     "nsc": "東京29期",
     "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14343/035e3c7e018130a7d2dbe5e6f3cb0cfcc049ea11.jpg",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14465/a71ae91e3791df9c17f6e69f3f728ebc4e62dcbb.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "ブリタニカ",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "14379",
+    "people": "鈴木・満尾",
+    "nsc": "東京29期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14379/63197e4a098bdad62786f8e2926e1d6a83ff465d.jpg",
     "added_at": ""
   },
   {
@@ -1416,6 +1405,17 @@
     "nsc": "東京30期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14205/87194ad54efeff45197a3e7479622dfed7636b9a.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "パパパジャマ",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "14904",
+    "people": "ももず・青木涼馬",
+    "nsc": "東京30期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14904/d886e846c7ad09ab9c008e90d57adeafa9152097.jpg",
     "added_at": ""
   },
   {
