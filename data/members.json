@@ -1342,14 +1342,14 @@
     "added_at": ""
   },
   {
-    "name": "寿司東京",
+    "name": "球技大会",
     "theater": "東京",
     "tier": "翔",
-    "id": "14209",
-    "people": "スズキマサト・加美山",
+    "id": "14001",
+    "people": "球技大会デンシ・吉日",
     "nsc": "東京30期",
     "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14209/514238ddee6fe66eb461223adb2f7f3d595038df.jpg",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14001/f78a9edde77a670e936e785f50088aa650e3e7a5.jpg",
     "added_at": ""
   },
   {
@@ -2200,6 +2200,17 @@
     "added_at": ""
   },
   {
+    "name": "英千代",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "14189",
+    "people": "たけちゃん・大将",
+    "nsc": "大阪41期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14189/791bcc029b50d3864c7586b53c96b91c2c7a923d.jpg",
+    "added_at": ""
+  },
+  {
     "name": "ファンファーレと熱狂",
     "theater": "大阪",
     "tier": "翔",
@@ -2288,6 +2299,17 @@
     "added_at": ""
   },
   {
+    "name": "キョンビ",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "9301",
+    "people": "斎藤・ナカジマ",
+    "nsc": "大阪43期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9301/329f624dba5308dbf5c45e2d88a7f72d576d26ab.jpg",
+    "added_at": ""
+  },
+  {
     "name": "九ノ段",
     "theater": "大阪",
     "tier": "翔",
@@ -2354,17 +2376,6 @@
     "added_at": ""
   },
   {
-    "name": "ムジンゾウ",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "8515",
-    "people": "夢・りん",
-    "nsc": "大阪43期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8515/b337e7af94671f88615abc30f544a7a3d3a47d41.jpg",
-    "added_at": ""
-  },
-  {
     "name": "釈迦虎",
     "theater": "大阪",
     "tier": "翔",
@@ -2428,17 +2439,6 @@
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9914/961887ab31f2d1c894c872de2e69f7da9b949dca.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "文句",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "9652",
-    "people": "松ヤニ・狂犬",
-    "nsc": "大阪44期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9652/7a96593479038eb264e318f330d35eab0b860a8f.jpg",
     "added_at": ""
   },
   {
@@ -2519,17 +2519,6 @@
     "added_at": ""
   },
   {
-    "name": "バタークッキークラブ",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "10380",
-    "people": "山縣とかげ・佐藤じゃろ丸",
-    "nsc": "大阪45期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10380/8353c4c3b7ae1c34511f1403137be869fa8633a5.jpg",
-    "added_at": ""
-  },
-  {
     "name": "バリアシオン",
     "theater": "大阪",
     "tier": "翔",
@@ -2563,6 +2552,17 @@
     "added_at": ""
   },
   {
+    "name": "おもしろジャンケン",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "12000",
+    "people": "その他しょうたろう・嘉津じゃない方・嘉津翔太",
+    "nsc": "大阪47期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/12000/1693567e502caa08c4ef831a44691e1b9ebc5bea.jpg",
+    "added_at": ""
+  },
+  {
     "name": "ちあき",
     "theater": "大阪",
     "tier": "翔",
@@ -2593,17 +2593,6 @@
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7146/5cf72978326b6d2cbeb87c88031b4cdfb35917b9.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "はじめましてはじめ",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "7539",
-    "people": "",
-    "nsc": "大阪42期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7539/2132c631453b203a095272dbc32e01586870b7ce.jpg",
     "added_at": ""
   },
   {
