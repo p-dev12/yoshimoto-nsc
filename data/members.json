@@ -1397,17 +1397,6 @@
     "added_at": ""
   },
   {
-    "name": "ミナミナミ",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "14205",
-    "people": "小夏とーわ・中山ヒロト・川村がくもん",
-    "nsc": "東京30期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14205/87194ad54efeff45197a3e7479622dfed7636b9a.jpg",
-    "added_at": ""
-  },
-  {
     "name": "パパパジャマ",
     "theater": "東京",
     "tier": "翔",
@@ -1416,6 +1405,17 @@
     "nsc": "東京30期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14904/d886e846c7ad09ab9c008e90d57adeafa9152097.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "ミナミナミ",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "14205",
+    "people": "小夏とーわ・中山ヒロト・川村がくもん",
+    "nsc": "東京30期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14205/87194ad54efeff45197a3e7479622dfed7636b9a.jpg",
     "added_at": ""
   },
   {
@@ -1881,14 +1881,14 @@
     "added_at": ""
   },
   {
-    "name": "ゴエモン",
+    "name": "ID:7283",
     "theater": "大阪",
     "tier": "極",
     "id": "7283",
     "people": "濱田浩平・だいじゅ",
-    "nsc": "大阪38期",
+    "nsc": "",
     "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7283/06e9f75ebc6d74eda121bb1900e319bdd843afac.jpg",
+    "img": "",
     "added_at": ""
   },
   {
