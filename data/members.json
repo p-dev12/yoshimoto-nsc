@@ -770,17 +770,6 @@
     "added_at": ""
   },
   {
-    "name": "おふろ",
-    "theater": "東京",
-    "tier": "極",
-    "id": "9758",
-    "people": "早崎貴宏・井上ステーキ",
-    "nsc": "東京21期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9758/3b331a0f1e862cf6ae176d3509837285e6031b5e.jpg",
-    "added_at": ""
-  },
-  {
     "name": "オフローズ",
     "theater": "東京",
     "tier": "極",
@@ -800,6 +789,17 @@
     "nsc": "大阪38期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7028/759f0e63979e1ce60eee8d01cefc9869b557d42e.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "スパジーニ",
+    "theater": "東京",
+    "tier": "極",
+    "id": "9758",
+    "people": "早崎貴宏・井上ステーキ",
+    "nsc": "東京21期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9758/3b331a0f1e862cf6ae176d3509837285e6031b5e.jpg",
     "added_at": ""
   },
   {
