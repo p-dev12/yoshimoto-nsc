@@ -1,137 +1,5 @@
 [
   {
-    "name": "おしみんまる",
-    "theater": "東京",
-    "tier": "極",
-    "id": "416",
-    "people": "",
-    "nsc": "",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/416/894c9fdc21f87b88653d59dd3c114406ad10129d.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "ツーナッカン",
-    "theater": "東京",
-    "tier": "極",
-    "id": "491",
-    "people": "中本幸一・中山逸紀",
-    "nsc": "東京5期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/491/33c4752f81cab70ef39a222eb72b5c6eb5b60ec4.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "大谷健太",
-    "theater": "東京",
-    "tier": "極",
-    "id": "6884",
-    "people": "",
-    "nsc": "",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6884/6db2de67fd8501a1436a80f8a53c8a1fe4a96c9c.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "イチキップリン",
-    "theater": "東京",
-    "tier": "極",
-    "id": "6586",
-    "people": "",
-    "nsc": "東京11期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6586/20f88c64566370102abbcba11b4bcccd33fbcd75.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "シマッシュレコード",
-    "theater": "東京",
-    "tier": "極",
-    "id": "6571",
-    "people": "嶋田　修平・しまい",
-    "nsc": "東京11期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6571/b85fa1491aa950f918216914c38060242d61ba3e.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "小森園ひろし",
-    "theater": "東京",
-    "tier": "極",
-    "id": "5146",
-    "people": "",
-    "nsc": "大阪29期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5146/4a63825f71dc2dd711cfc187ff1633b1c8eea33b.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "アイロンヘッド",
-    "theater": "東京",
-    "tier": "極",
-    "id": "5069",
-    "people": "ナポリ・辻井亮平",
-    "nsc": "大阪30期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5069/48ab46bf389d938c0e3c39c3a163e5189deef03b.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "カーネーション",
-    "theater": "東京",
-    "tier": "極",
-    "id": "6544",
-    "people": "岡下雅典・吉田結衣",
-    "nsc": "大阪30期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6544/a4a222e84cbe259dc67b6d206d2cba5a44d3dadc.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "たつろう",
-    "theater": "東京",
-    "tier": "極",
-    "id": "6970",
-    "people": "",
-    "nsc": "東京13期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6970/2687b2fc85ff3457e049f0bca83e151a22c43e61.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "デンゼル",
-    "theater": "東京",
-    "tier": "極",
-    "id": "11922",
-    "people": "遠藤はやと・とべまーし",
-    "nsc": "東京13期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11922/e32a601f5f0f263ed1641157178c905765f7f0b8.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "光永",
-    "theater": "東京",
-    "tier": "極",
-    "id": "3433",
-    "people": "",
-    "nsc": "大阪30期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/3433/5c58169ac2b739745b2719be216045c8d02fe240.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "カゲヤマ",
-    "theater": "東京",
-    "tier": "極",
-    "id": "4187",
-    "people": "タバやん。・益田康平",
-    "nsc": "東京14期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/4187/069c85f4410fe1b374c16625bf38f53fb61fd109.jpg",
-    "added_at": ""
-  },
-  {
     "name": "いぬ",
     "theater": "東京",
     "tier": "極",
@@ -1408,105 +1276,6 @@
     "added_at": ""
   },
   {
-    "name": "ガチャガチャ",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "5807",
-    "people": "かんちゃん・ジョージ",
-    "nsc": "大阪25期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5807/6cc6197c4537550a266433f76c5c18513f861691.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "祇園",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "2846",
-    "people": "木﨑太郎・櫻井健一朗",
-    "nsc": "大阪28期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/2846/fe140859788edeaba54a1ff24393269d48507aff.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "デルマパンゲ",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "5078",
-    "people": "迫田篤・広木英介",
-    "nsc": "",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5078/0f32afaf0569170700946fb9b9feaf3e7aefa3dd.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "吉田たち",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "2873",
-    "people": "こうへい・ゆうへい",
-    "nsc": "大阪29期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/2873/f3defa877ce5c7bd23ee3893c7b25d4e30b0ae55.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "ラビットラ",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "6329",
-    "people": "渡邊瞬・松本直也",
-    "nsc": "大阪29期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6329/ede5cc50b03a80cbbc598c66503c8114ed14a7c7.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "十手",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "5786",
-    "people": "十田卓・エナジー西手",
-    "nsc": "大阪30期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5786/4b326eb76baf74fe4f226b8e14b492ffac72334b.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "ダブルアート",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "5154",
-    "people": "タグ・真べぇ",
-    "nsc": "大阪30期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5154/95fe565273c9364aa8d7f2b991421ee80e533dd8.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "マイスイートメモリーズ",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "6478",
-    "people": "トランスフォーム福田・花谷豊",
-    "nsc": "",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/6478/b08de0d05d219c93ed8deabe44b4368fcc3aabdf.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "マグリット",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "7878",
-    "people": "サバイバルダンス大地・おふらんす田中",
-    "nsc": "大阪31期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7878/32cafbb5599c82298564fd5bc55fd7499c7136fd.jpg",
-    "added_at": ""
-  },
-  {
     "name": "アイラブ地球",
     "theater": "大阪",
     "tier": "極",
@@ -2002,17 +1771,6 @@
     "added_at": ""
   },
   {
-    "name": "シゲカズです",
-    "theater": "大阪",
-    "tier": "極",
-    "id": "5754",
-    "people": "",
-    "nsc": "大阪31期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/5754/1ebe3450e6bfc5531ffe0a596b4c3e46e0832325.jpg",
-    "added_at": ""
-  },
-  {
     "name": "苺ちゃん",
     "theater": "大阪",
     "tier": "極",
@@ -2101,17 +1859,6 @@
     "added_at": ""
   },
   {
-    "name": "ごぞうろっぷ",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "9996",
-    "people": "ゆう・ソウタヤマモト",
-    "nsc": "大阪41期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9996/e8d187e0f4ddd0d1db63ce9b6f10456323eb33de.jpg",
-    "added_at": ""
-  },
-  {
     "name": "コブラマン",
     "theater": "大阪",
     "tier": "翔",
@@ -2120,6 +1867,17 @@
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9182/a6e20516c17f376a17933a4624b767c9f550f322.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "ごぞうろっぷ",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "9996",
+    "people": "ゆう・ソウタヤマモト",
+    "nsc": "大阪41期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9996/e8d187e0f4ddd0d1db63ce9b6f10456323eb33de.jpg",
     "added_at": ""
   },
   {
@@ -2186,17 +1944,6 @@
     "nsc": "大阪41期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13439/72caa436d4e536aeecbfb8f9a7ea4466978531a8.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "英千代",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "14189",
-    "people": "たけちゃん・大将",
-    "nsc": "大阪41期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14189/791bcc029b50d3864c7586b53c96b91c2c7a923d.jpg",
     "added_at": ""
   },
   {
@@ -2288,6 +2035,17 @@
     "added_at": ""
   },
   {
+    "name": "オーケストラ",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "8423",
+    "people": "石井　勝太郎・河野　拳也",
+    "nsc": "大阪43期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8423/77e6904825059ef1764345abcff975973591ef7e.jpg",
+    "added_at": ""
+  },
+  {
     "name": "キョンビ",
     "theater": "大阪",
     "tier": "翔",
@@ -2354,6 +2112,17 @@
     "added_at": ""
   },
   {
+    "name": "ドライブドライブ",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "8464",
+    "people": "八旗　遼・田中　祐輝",
+    "nsc": "大阪43期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8464/5a2d546e69e7e279f585e421fcb590e330478e3b.jpg",
+    "added_at": ""
+  },
+  {
     "name": "マーティー",
     "theater": "大阪",
     "tier": "翔",
@@ -2365,6 +2134,17 @@
     "added_at": ""
   },
   {
+    "name": "宛先プレーン",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "9534",
+    "people": "荒木健太・たかまん",
+    "nsc": "大阪44期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9534/670819c5f79bd6d911dce64e17570d73ed8816fb.jpg",
+    "added_at": ""
+  },
+  {
     "name": "釈迦虎",
     "theater": "大阪",
     "tier": "翔",
@@ -2373,17 +2153,6 @@
     "nsc": "大阪44期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9877/fcddad5274fb98f0cf06fae5f87892356a69639c.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "浪速モダンカダン",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "10879",
-    "people": "ボヒゲス・ヲ富",
-    "nsc": "大阪44期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10879/a6b5999bb02ccd6128f5042b1c9f4fb7421711b1.jpg",
     "added_at": ""
   },
   {
@@ -2439,6 +2208,17 @@
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10265/6ff7c16d0a08e1cd5a8634453e3806dcc6010aea.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "遠足ダイスキタイム",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "10483",
+    "people": "たつ・とん吉",
+    "nsc": "大阪45期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10483/4fa3b6371114bc2e20eb495c1c88da603a10cfcb.jpg",
     "added_at": ""
   },
   {
@@ -2582,6 +2362,17 @@
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8670/2c6b6edcb6414c22e7801c565bac2e7cf22987e1.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "岡田浩太朗",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "10491",
+    "people": "",
+    "nsc": "大阪45期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10491/33bbe8dc6e097c75ee5f27b662df2e4dc2e34be4.jpg",
     "added_at": ""
   }
 ]
