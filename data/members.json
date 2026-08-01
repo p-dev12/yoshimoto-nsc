@@ -924,14 +924,14 @@
     "added_at": ""
   },
   {
-    "name": "今夜はブルース",
+    "name": "隠れドキュン",
     "theater": "東京",
     "tier": "翔",
-    "id": "9015",
-    "people": "ソウヤタニグチ・清家タロウ",
+    "id": "14144",
+    "people": "石塚審判・ヤッツ",
     "nsc": "東京25期",
     "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9015/d82f558f180e9575bf7e823e9b4d15ba774d6b76.jpg",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14144/dd486cb840d4b6a0c93a565dda5a2f8874173660.jpg",
     "added_at": ""
   },
   {
@@ -954,6 +954,17 @@
     "nsc": "東京25期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10013/ee2243098932b09546166ce28f4b161e815c4be7.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "イザナミン",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "12622",
+    "people": "ランジェ・上地わら",
+    "nsc": "東京26期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/12622/45fedcbc01ec59f04712430097da80fff986b967.jpg",
     "added_at": ""
   },
   {
@@ -1075,17 +1086,6 @@
     "nsc": "東京28期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13764/83aca5602f92f4edbe257d445731d66413fb4c5c.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "キイロイゾウサン",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "13521",
-    "people": "SIZUKU・クロギ",
-    "nsc": "東京28期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13521/d2c534fc60a3c843e73141c1b10dca79dca3141d.jpg",
     "added_at": ""
   },
   {
