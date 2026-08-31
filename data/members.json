@@ -279,7 +279,7 @@
     "theater": "東京",
     "tier": "極",
     "id": "8849",
-    "people": "米女翔・大寺惇平",
+    "people": "五郎・大寺惇平",
     "nsc": "東京17期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8849/2d2790857a31f52fd8b67022abf16d2b36b28f93.jpg",
@@ -1779,6 +1779,17 @@
     "nsc": "大阪40期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9046/a25f7d02be96302e7d8bb0e4a6b902b09f4f51c6.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "アシダヒモビッチ",
+    "theater": "大阪",
+    "tier": "極",
+    "id": "7361",
+    "people": "",
+    "nsc": "",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7361/4172b329d3d61da7e374e351773e6647ff00a7a1.jpg",
     "added_at": ""
   },
   {
