@@ -924,17 +924,6 @@
     "added_at": ""
   },
   {
-    "name": "隠れドキュン",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "14144",
-    "people": "石塚審判・ヤッツ",
-    "nsc": "東京25期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14144/9614e01bc69428135efba0b91b7a5fc3ab83f5af.jpg",
-    "added_at": ""
-  },
-  {
     "name": "大王",
     "theater": "東京",
     "tier": "翔",
@@ -954,17 +943,6 @@
     "nsc": "東京25期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10013/ee2243098932b09546166ce28f4b161e815c4be7.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "イザナミン",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "12622",
-    "people": "ランジェ・上地わら",
-    "nsc": "東京26期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/12622/45fedcbc01ec59f04712430097da80fff986b967.jpg",
     "added_at": ""
   },
   {
@@ -1045,17 +1023,6 @@
     "added_at": ""
   },
   {
-    "name": "ボダリキボバイ",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "13999",
-    "people": "鈴木ロン毛・ビッグ小原健太",
-    "nsc": "東京27期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13999/15ac31a2039a20d0f582880f5dbb322c1710cfae.jpg",
-    "added_at": ""
-  },
-  {
     "name": "私東京",
     "theater": "東京",
     "tier": "翔",
@@ -1100,6 +1067,17 @@
     "added_at": ""
   },
   {
+    "name": "デジタルバッハ",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "12798",
+    "people": "加藤てっきゅう・川副祥平",
+    "nsc": "東京28期",
+    "nsc_manual": "",
+    "img": "",
+    "added_at": ""
+  },
+  {
     "name": "ニコミハジメテ",
     "theater": "東京",
     "tier": "翔",
@@ -1130,6 +1108,17 @@
     "nsc": "東京28期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10839/2d398e02bf5dbd472037e8747f605d252bff14da.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "ラクダ人生",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "13739",
+    "people": "飯田歩希・大西脩斗",
+    "nsc": "東京28期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/13739/22f502236fa9f6e1f133194a1fdbab22c9f0fce4.jpg",
     "added_at": ""
   },
   {
@@ -1199,17 +1188,6 @@
     "added_at": ""
   },
   {
-    "name": "ブリタニカ",
-    "theater": "東京",
-    "tier": "翔",
-    "id": "14379",
-    "people": "鈴木・満尾",
-    "nsc": "東京29期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14379/63197e4a098bdad62786f8e2926e1d6a83ff465d.jpg",
-    "added_at": ""
-  },
-  {
     "name": "球技大会",
     "theater": "東京",
     "tier": "翔",
@@ -1218,6 +1196,17 @@
     "nsc": "東京30期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14001/f78a9edde77a670e936e785f50088aa650e3e7a5.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "寿司東京",
+    "theater": "東京",
+    "tier": "翔",
+    "id": "14209",
+    "people": "スズキマサト・加美山",
+    "nsc": "東京30期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/14209/514238ddee6fe66eb461223adb2f7f3d595038df.jpg",
     "added_at": ""
   },
   {
@@ -2002,6 +1991,17 @@
     "added_at": ""
   },
   {
+    "name": "カノッサ",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "9869",
+    "people": "ウエハース光川・須﨑裕一郎",
+    "nsc": "大阪42期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9869/395c7506d4b1e872a31ea2ba863e658e274eadb1.jpg",
+    "added_at": ""
+  },
+  {
     "name": "空前メテオ",
     "theater": "大阪",
     "tier": "翔",
@@ -2065,6 +2065,17 @@
     "nsc": "大阪42期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/7967/e8da2144f562e835645cf4d334dfb3afd779a7b9.jpg",
+    "added_at": ""
+  },
+  {
+    "name": "FFD700",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "15003",
+    "people": "おのちゃんバニラ・おーにしゆーま",
+    "nsc": "大阪43期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/15003/6a054d6e44e45c297bfce6e01b6201d6bfc86a06.jpg",
     "added_at": ""
   },
   {
@@ -2156,6 +2167,17 @@
     "added_at": ""
   },
   {
+    "name": "ヒョウリ",
+    "theater": "大阪",
+    "tier": "翔",
+    "id": "9709",
+    "people": "一心・マツザワ",
+    "nsc": "大阪43期",
+    "nsc_manual": "",
+    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9709/255985f5947eeb44d343c2e87669d222164c451b.jpg",
+    "added_at": ""
+  },
+  {
     "name": "マーティー",
     "theater": "大阪",
     "tier": "翔",
@@ -2164,17 +2186,6 @@
     "nsc": "大阪43期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/8500/226791d6315ed4a9cf51e462b9f3b19add7726ea.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "宛先プレーン",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "9534",
-    "people": "荒木健太・たかまん",
-    "nsc": "大阪44期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/9534/670819c5f79bd6d911dce64e17570d73ed8816fb.jpg",
     "added_at": ""
   },
   {
@@ -2288,17 +2299,6 @@
     "added_at": ""
   },
   {
-    "name": "野良レール",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "11719",
-    "people": "やまぐち・てすけ",
-    "nsc": "大阪45期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/11719/cc9355d029411acf78e55a932de068a0c722272f.jpg",
-    "added_at": ""
-  },
-  {
     "name": "バリアシオン",
     "theater": "大阪",
     "tier": "翔",
@@ -2307,17 +2307,6 @@
     "nsc": "大阪45期",
     "nsc_manual": "",
     "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10383/c3ae90be1ab951581ec647c88792bbbf88071a39.jpg",
-    "added_at": ""
-  },
-  {
-    "name": "はるかぜに告ぐ",
-    "theater": "大阪",
-    "tier": "翔",
-    "id": "10386",
-    "people": "花妃・とんず",
-    "nsc": "大阪45期",
-    "nsc_manual": "",
-    "img": "https://profile.yoshimoto.co.jp/assets/data/profile/10386/7b319b717641f275b6aece4777cf591679dd46e2.jpg",
     "added_at": ""
   },
   {
